@@ -174,10 +174,7 @@ h1 {
         
     }
 
-    .main {
-       
-    }
-
+  
     .thm {
         background-color: #007bff;
         width: 80%;
@@ -317,7 +314,7 @@ h1 {
         padding: 10px;
     }
 }
-@media only screen and (max-width :320px) {
+@media only screen and (max-width :768px) {
     #tool{
         background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
         background-repeat: no-repeat;
@@ -367,6 +364,13 @@ h1 {
         font-size: 20px;
         text-align: center;
         padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
         
+    }
+}
+@media only screen and (min-width :768px) {
+    #tool h2{
+        padding-top: 50px;
     }
 }

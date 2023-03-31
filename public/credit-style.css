@@ -1,4 +1,99 @@
-@media (min-width :992px) {
+
+@media only screen and (max-width :425px) {
+    #credit{
+        background-image: url("istockphoto-1079132980-612x612.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 210px;
+        margin-bottom: 0;
+        
+    }
+    .credit-head {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .credit-txt {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 0;
+        font-size: 6pt;
+        width: 40%;
+
+
+    }
+    .credit-txt-s {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 10px;
+        margin-bottom: 0;
+
+
+
+    }
+
+    #credit a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #credit a:hover {
+        text-decoration: underline;
+    }
+}
+@media only screen and (min-width :728px) {
+    #credit{
+        background-image: url("istockphoto-1079132980-612x612.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 320px;
+        margin-bottom: 0;
+        
+    }
+    .credit-head {
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .credit-txt {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 5%;
+        margin-bottom: 0;
+        font-size: 12pt;
+        width: 40%;
+
+
+    }
+    .credit-txt-s {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 5%;
+        font-size: 20px;
+        margin-bottom: 0;
+
+
+
+    }
+
+    #credit a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #credit a:hover {
+        text-decoration: underline;
+    }
+}
+@media (min-width :1024px) {
     
     #credit{
         background-image: url("istockphoto-1079132980-612x612.jpg");
@@ -45,51 +140,4 @@
     }
 
     
-}
-@media only screen and (max-width :320px) {
-    #credit{
-        background-image: url("istockphoto-1079132980-612x612.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 210px;
-        margin-bottom: 0;
-        
-    }
-    .credit-head {
-        font-size: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 10px;
-    }
-    .credit-txt {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left;
-        margin-left: 5%;
-        margin-bottom: 0;
-        font-size: 6pt;
-        width: 40%;
-
-
-    }
-    .credit-txt-s {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: left;
-        margin-left: 5%;
-        font-size: 10px;
-        margin-bottom: 0;
-
-
-
-    }
-
-    #credit a {
-        text-decoration: none;
-        color: black;
-    }
-
-    #credit a:hover {
-        text-decoration: underline;
-    }
 }

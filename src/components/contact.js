@@ -17,7 +17,7 @@ class Contact extends React.Component {
                         rel="noopener noreferrer">Istagram</a>
                 </p>
                 <div className="row">
-            <div className=" col-lg-6">
+            <div className=" col-lg-6  ">
             <p className="feed-head">
                     Contact us directly
                 </p>

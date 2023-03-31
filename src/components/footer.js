@@ -13,7 +13,7 @@ class Footer extends React.Component {
             <>
                <section id="footer">
         <div className="row">
-            <div className="col-lg-6 footer-left">
+            <div className="col-lg-6 col-md-6 footer-left">
                 <div className="footer-element-left">
                     <p className="link-head">
                         Important links
@@ -35,7 +35,7 @@ class Footer extends React.Component {
                     <a href="#privacy">Privacy policy</a>
                 </div>
             </div>
-            <div className="col-lg-6 footer-right">
+            <div className="col-lg-6 col-md-6 footer-right">
                 <div className=" footer-element-right">
                     <p className="contact-head">
                         Contact Us

@@ -88,19 +88,23 @@
         text-decoration: underline;
     }
 }
-@media only screen and (max-width :320px) {
+@media only screen and (max-width :768px) {
     .footer-left {
 
         background-color: rgb(41, 41, 43);
         height: 245px;
+        padding: 0;
+        
     }
     
     .footer-right {
     
         background-color: rgb(41, 41, 43);
         font-size: 8pt;
-        height: 155px;
+        height: 245px;
+        padding: 0;
     }
+   
     
     .footer-element-right {
         width: 80%;

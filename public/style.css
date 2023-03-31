@@ -1,0 +1,372 @@
+
+
+
+
+.paper {
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-top: 50px;
+
+}
+
+.head .job-report {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72pt;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0;
+    color: blue;
+    text-decoration: underline;
+    margin: 0;
+
+
+}
+
+.head .job-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22pt;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.data p {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+}
+
+h1 {
+    color: blue;
+    margin: 0;
+    margin-top: 100px;
+
+}
+
+.round-button {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.custom-margin {
+    margin-top: 55px;
+}
+
+@media (min-width: 992px) {
+    .no-margin {
+        margin: 0;
+        margin-right: 10px;
+
+    }
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .margin {
+        margin-top: 50px;
+    }
+}
+
+.head-middle {
+    text-align: center;
+}
+
+@media (min-width :992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .large {
+        margin-left: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        font-weight: 1000;
+        padding: 60px;
+        text-align: center;
+
+    }
+
+    #main {
+        margin-bottom: 100px;
+
+    }
+
+
+    .tool-input {
+        margin-left: 10%;
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+    }
+    
+
+    .sughead {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .sug-btn-grp {
+        margin-left: 10%;
+        width: 80%;
+
+    }
+
+    .sug-btn {
+        width: 21%;
+        margin-left: 10px;
+        border: 1px solid white;
+        border-radius: 15px;
+        background-color: lightgray;
+    }
+
+    .btn-success {
+        width: 80%;
+        margin-right: 10%;
+        margin-top: 10px;
+    }
+
+    .btn-danger {
+     
+
+        width: 80%;
+        margin-left: 20%;
+        margin-top: 10px;
+
+    }
+
+    .radio {
+        margin-right: 5px;
+    }
+
+    .feed-head {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        margin-left: 10%;
+
+    }
+
+   
+
+    .main h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        
+    }
+
+    .main {
+       
+    }
+
+    .thm {
+        background-color: #007bff;
+        width: 80%;
+        height: 50px;
+        margin-left: 10%;
+        border-radius: 50px;
+        border-color: white;
+        border-style: solid;
+        margin-bottom: 50px;
+
+    }
+
+    .thm-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #theme {
+        margin-bottom: 100px;
+    }
+
+    
+
+    
+
+    .img {
+        width: 80%;
+        margin-left: 10%;
+        border: 1px solid black;
+        border-radius: 50px;
+        height: 400px;
+    }
+
+    #gallery {
+        margin-bottom: 100px;
+    }
+
+    .img-head {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+       
+        text-align: center;
+
+    }
+
+    
+
+    
+
+    .tool-theme {
+        margin-left: 10%;
+
+    }
+    
+    .tool-img{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 70px;
+        height: 400px;
+    }
+    #cover-templete-next1{
+        width: 40%;
+       
+        margin: 0;
+        margin-left: 10%;
+    }
+    #cover-templete-next2{
+        width: 40%;
+       
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    #cover-templete-back1{
+        width: 40%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 20px;
+
+    }
+    #tool{
+        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        
+    }
+ 
+
+
+
+}
+
+
+
+
+
+#next-2{
+    display: none;
+}
+#next-3{
+    display: none;
+}
+
+
+
+
+
+.scroll-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 230, 230);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.scroll-btn:hover {
+    background-color: rgb(236, 230, 230);
+}
+@media (max-width: 768px) {
+    .scroll-btn {
+        bottom: 10px;
+        right: 10px;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width :320px) {
+    #tool{
+        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 562px;
+    }
+    #next-img-2{
+        width: 0;
+        height: 0;
+
+    }   
+    #next-img-3{
+        width: 0;
+        height: 0;
+        
+    } 
+    #next-img-1{
+        width: 0;
+        height: 0;
+        
+    } 
+    .tool-input {
+        margin-left: 10%;
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+    }
+    .btn-success {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .btn-danger {
+     
+
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10px;
+
+    }
+    #tool h2{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+}

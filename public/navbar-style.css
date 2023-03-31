@@ -1,0 +1,22 @@
+.nav-link:hover {
+    color: blue;
+}
+
+#home:hover {
+    color: blue;
+}
+
+.dropdown-item:hover {
+    color: blue;
+}
+
+.navbar-brand:hover {
+    color: blue;
+}
+
+.nav-link{
+    color: black;
+}
+.navbar-toggler-icon {
+    background-image: url("menu-icon-6.jpg");
+}

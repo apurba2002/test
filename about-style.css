@@ -1,0 +1,167 @@
+
+@media only screen and (max-width :320px) {
+    #about{
+        background-image: url("pngtree-3d-rendering-for-display-product-banner-on-website-image_453005.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 700px;
+        
+       
+
+    }   
+    .about-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+
+    }
+    .about-txt {
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 6pt;
+        font-weight: 700;
+        
+        
+
+
+    }
+}
+@media only screen and (max-width :768px) {
+    #about{
+        background-image: url("pngtree-3d-rendering-for-display-product-banner-on-website-image_453005.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 700px;
+        
+       
+
+    }   
+    .about-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+
+    }
+    .about-txt {
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 6pt;
+        font-weight: 700;
+        
+        
+
+
+    }
+}
+@media only screen and (min-width :768px) {
+    #about{
+        height: 495px;
+    }
+}
+@media (min-width :1024px) {
+    #about{
+        background-image: url("pngtree-3d-rendering-for-display-product-banner-on-website-image_453005.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 950px;
+        
+       
+
+    }
+    .about-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+
+    }
+
+    .about-txt {
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        
+        
+        
+
+
+    }
+}
+@media (min-width :1440px) {
+    #about{
+        background-image: url("pngtree-3d-rendering-for-display-product-banner-on-website-image_453005.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 820px;
+        
+       
+
+    }
+    .about-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+
+    }
+
+    .about-txt {
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        
+        
+        
+
+
+    }
+}
+@media (min-width :2560px) {
+    #about{
+        background-image: url("pngtree-3d-rendering-for-display-product-banner-on-website-image_453005.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        height: 1190px;
+        
+       
+
+    }
+    .about-head {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 90px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+
+    }
+
+    .about-txt {
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        font-size: 26px;
+        
+        
+        
+
+
+    }
+}

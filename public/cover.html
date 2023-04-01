@@ -99,6 +99,7 @@
     </div>
     <script>
         
+        
 document.getElementById('c-sub-name').innerHTML=sessionStorage.getItem('subname')
 document.getElementById('c-student-name').innerHTML=sessionStorage.getItem('studentname')
 document.getElementById('c-job-name').innerHTML=sessionStorage.getItem('jobname')
@@ -166,14 +167,16 @@ else if(theme==="default"){
     document.getElementById('theme-st').style.color="blue";
     document.getElementById('theme-sg').style.color="blue";
 }
-function download(){
+
+    function download(){
     
-    window.print()
+    window.print($(".paper"))
     
     addEventListener("afterprint",function(){
         this.location.href="index.html"
     })
 }
+
 
 
 

@@ -172,6 +172,9 @@ else if(theme==="default"){
     
     window.print($(".paper"))
  
+    addEventListener("afterprint",function(){
+        this.location.href="index.html"
+    })
 }
 
 

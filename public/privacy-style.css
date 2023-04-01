@@ -22,7 +22,7 @@
         padding-top: 50px;
     }
 }
-@media only screen and (max-width :768px) {
+@media only screen and (max-width :1023px) {
     #privacy{
         padding-bottom: 50px;
         background-image: url("PRIVACY\ POLICY_SP_2x.webp");

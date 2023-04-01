@@ -374,3 +374,55 @@ h1 {
         padding-top: 50px;
     }
 }
+@media only screen and (min-width :2560px) {
+    #tool{
+        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1300px;
+    }
+   
+    .tool-input {
+        margin-left: 10%;
+        width: 80%;
+        padding: 45px;
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        color: black;
+        font-weight: bolder;
+    }
+    .btn-success {
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .btn-danger {
+     
+
+        width: 70%;
+        margin-left: 20%;
+        margin-top: 10px;
+        height: 100px;
+    }
+    #tool h2{
+        font-size: 65px;
+        text-align: center;
+        padding-top:100px;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 100px;
+        
+    }
+    #next-img-1{
+        height: 765px;
+    }
+    #next-img-2{
+        height: 600px;
+    }
+    #next-img-3{
+        height: 760px;
+    }
+}

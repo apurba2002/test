@@ -141,3 +141,52 @@
 
     
 }
+@media (min-width :2560px) {
+    
+    #credit{
+        background-image: url("istockphoto-1079132980-612x612.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1100px;
+        margin-bottom: 0;
+        
+    }
+    .credit-head {
+        font-size: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-bottom: 0px;
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+
+    .credit-txt {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 10%;
+        font-size: 30px;
+
+
+
+    }
+    .credit-txt-s {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 10%;
+        font-size: 60px;
+
+
+
+    }
+
+    #credit a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #credit a:hover {
+        text-decoration: underline;
+    }
+
+    
+}

@@ -142,7 +142,7 @@ class Tool extends React.Component {
                 </h2>
 
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-xxl-6">
 
                         <img src="fff-removebg-preview.png"
                             className="tool-img" alt="" style={{ display: "none" }} id="next-img-2" />
@@ -186,7 +186,7 @@ class Tool extends React.Component {
 
 
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-6 col-xxl-6">
                                     <button type="button" className="btn btn-success" id="next1">Next</button>
                                 </div>
 

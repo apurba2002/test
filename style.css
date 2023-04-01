@@ -314,7 +314,7 @@ h1 {
         padding: 10px;
     }
 }
-@media only screen and (max-width :768px) {
+@media only screen and (max-width :1023px) {
     #tool{
         background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
         background-repeat: no-repeat;

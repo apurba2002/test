@@ -80,7 +80,7 @@ h1 {
     display: none;
 }
 body{
-    background-color: rgb(41, 39, 39);
+    background-image: linear-gradient( to right, lightblue , white);
 }
 
 

@@ -74,10 +74,15 @@ h1 {
 }
 #control{
     margin-top: 150px;
+    
 }
 #button{
     display: none;
 }
+body{
+    background-color: rgb(41, 39, 39);
+}
+
 
 
 @media print {

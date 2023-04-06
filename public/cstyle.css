@@ -74,10 +74,15 @@ h1 {
 }
 #control{
     margin-top: 150px;
+    
 }
 #button{
     display: none;
 }
+body{
+    background-image: linear-gradient( to right, lightblue , white);
+}
+
 
 
 @media print {

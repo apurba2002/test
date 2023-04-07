@@ -260,7 +260,7 @@ h1 {
 
     }
     #tool{
-        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-image: url("OIP.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 700px;
@@ -316,7 +316,7 @@ h1 {
 }
 @media only screen and (max-width :1023px) {
     #tool{
-        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-image: url("OIP.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 562px;
@@ -376,7 +376,7 @@ h1 {
 }
 @media only screen and (min-width :2560px) {
     #tool{
-        background-image: url("cloud-sky-background-blue-sky-with-mesh-clouds-pattern-realistic-summer-cloudspace-vector_555028-67.avif");
+        background-image: url("OIP.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 1300px;

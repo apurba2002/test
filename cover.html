@@ -86,7 +86,7 @@
                     <h1 class="txt txt-lg">
                         Your document is ready for download.
                     </h1>
-                    <h1 class="txt">
+                    <h1 class="txt" style="color: red;">
                         For better result select A4 size paper.
                     </h1>
                 </div>
@@ -95,17 +95,17 @@
         <br>
         <section id="button">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4">
 
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4">
                     <div class="row">
-                        <div class=" col-lg-6">
+                        <div class=" col-lg-6 col-md-6" >
                             <button onclick="printForm()" class=" btn btn-success "> Download</button>
 
 
                         </div>
-                        <div class=" col-lg-6">
+                        <div class=" col-lg-6 col-md-6">
                             <button onclick="location.href='index.html'" class=" btn btn-danger "> Go back </button>
 
 
@@ -114,7 +114,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4">
 
                 </div>
 
@@ -202,10 +202,7 @@
 
         }
         function show() {
-            if ($("#c-sub-name").text() === "") {
-                location.href = "index.html"
-            }
-            else {
+           
                 $(".title").show(1000)
                 setTimeout(function () {
                     $(".title").hide(1000)
@@ -215,7 +212,7 @@
                     }, 2000)
 
                 }, 5000);
-            }
+            
         }
 
 

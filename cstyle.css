@@ -47,7 +47,7 @@ span {
 h1 {
     margin: 0;
     margin-top: 50px;
-    color: blue;
+    color: black;
 
 }
 .btn{
@@ -74,14 +74,21 @@ h1 {
 }
 #control{
     margin-top: 150px;
-    
+   
+}
+body{
+   background-image: linear-gradient(to left, skyblue,white);
 }
 #button{
     display: none;
 }
-body{
-    background-image: linear-gradient( to right, lightblue , white);
+@media only screen and (max-width:767px) {
+    .btn{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
+
 
 
 

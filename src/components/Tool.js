@@ -84,10 +84,10 @@ class Tool extends React.Component {
                         else {
 
                             $(".tool-input").css("border-color", "lightgray")
-                            $("#next-1").slideUp("slow")
-                            $("#next-img-1").slideUp("slow")
-                            $("#next-2").slideDown("slow")
-                            $("#next-img-2").slideDown("slow")
+                            $("#next-1").hide("slow")
+                            $("#next-img-1").hide("slow")
+                            $("#next-2").show("slow")
+                            $("#next-img-2").show("slow")
                         }
                     }
                 }
@@ -109,26 +109,26 @@ class Tool extends React.Component {
                     }
                     else {
                         $(".tool-input").css("border-color", "lightgray")
-                        $("#next-2").slideUp("slow")
-                        $("#next-img-2").slideUp("slow")
-                        $("#next-3").slideDown("slow")
-                        $("#next-img-3").slideDown("slow")
+                        $("#next-2").hide("slow")
+                        $("#next-img-2").hide("slow")
+                        $("#next-3").show("slow")
+                        $("#next-img-3").show("slow")
                     }
                 }
             }
 
         })
         $("#back3").click(function () {
-            $("#next-3").slideUp("slow")
-            $("#next-img-3").slideUp("slow")
-            $("#next-2").slideDown("slow")
-            $("#next-img-2").slideDown("slow")
+            $("#next-3").hide("slow")
+            $("#next-img-3").hide("slow")
+            $("#next-2").show("slow")
+            $("#next-img-2").show("slow")
         })
         $("#back2").click(function () {
-            $("#next-2").slideUp("slow")
-            $("#next-img-2").slideUp("slow")
-            $("#next-1").slideDown("slow")
-            $("#next-img-1").slideDown("slow")
+            $("#next-2").hide("slow")
+            $("#next-img-2").hide("slow")
+            $("#next-1").show("slow")
+            $("#next-img-1").show("slow")
         })
         
         

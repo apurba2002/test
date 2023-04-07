@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 import Baner from "./Baner"
 class Tool extends React.Component {
     componentDidMount() {
-        var pr=0
+        var pr = 0
         $("#next3").click(() => {
             if (($("#department").val()) === "") {
                 $("#department").css("border-color", "red")
@@ -47,17 +47,17 @@ class Tool extends React.Component {
                         var semester = $("#semester").val()
                         sessionStorage.setItem("semester", semester)
 
-                        window.location.href="cover.html";
-                       
-                        
-                        
+                        window.location.href = "cover.html";
+
+
+
 
                     }
                 }
             }
-           
+
         })
-       
+
         $("#next1").click(function () {
             if (($("#sub-name").val()) === "") {
 
@@ -85,9 +85,9 @@ class Tool extends React.Component {
 
                             $(".tool-input").css("border-color", "lightgray")
                             $("#next-1").hide("slow")
-                            $("#next-img-1").hide("slow")
+
                             $("#next-2").show("slow")
-                            $("#next-img-2").show("slow")
+
                         }
                     }
                 }
@@ -110,9 +110,9 @@ class Tool extends React.Component {
                     else {
                         $(".tool-input").css("border-color", "lightgray")
                         $("#next-2").hide("slow")
-                        $("#next-img-2").hide("slow")
+
                         $("#next-3").show("slow")
-                        $("#next-img-3").show("slow")
+
                     }
                 }
             }
@@ -120,34 +120,37 @@ class Tool extends React.Component {
         })
         $("#back3").click(function () {
             $("#next-3").hide("slow")
-            $("#next-img-3").hide("slow")
+
             $("#next-2").show("slow")
-            $("#next-img-2").show("slow")
+
         })
         $("#back2").click(function () {
             $("#next-2").hide("slow")
-            $("#next-img-2").hide("slow")
+
             $("#next-1").show("slow")
-            $("#next-img-1").show("slow")
+
         })
-        
-        
+
+
     }
 
     render() {
         return (
-            <div className="main" id="tool">
-                <h2>
-                    Enter your details and create something awsome
-                </h2>
+            <div className="main" id="tool" style={{marginBottom:"150px"}}>
+
 
                 <div className="row">
-                    <div className="col-lg-6 col-xxl-6">
+                    <div className="col-lg-2 col-xxl-2">
 
-                        <img src="fff-removebg-preview.png"
-                            className="tool-img" alt="" style={{ display: "none" }} id="next-img-2" />
-                        <br />
-                        <br />
+
+
+
+
+                    </div>
+                    <div className="col-lg-8 col-xxl-8" >
+                        <h2 style={{ textAlign: "left" ,marginLeft: "10%",marginBottom:"50px" , marginTop:"50px"}}>
+                            Enter your details and create something awsome
+                        </h2>
 
                         <section id="next-1">
                             <div className="input-group">
@@ -188,6 +191,52 @@ class Tool extends React.Component {
                                 </div>
                                 <div className="col-lg-6 col-xxl-6">
                                     <button type="button" className="btn btn-success" id="next1">Next</button>
+                                </div>
+
+                            </div>
+                        </section>
+                        <section id="next-2">
+                            <div className="input-group">
+
+                                <input type="text " className="tool-input " id="student-name" aria-label="First name"
+                                    placeholder="Enter student's name" />
+
+
+                            </div>
+
+                            <div className="input-group">
+
+                                <input type="text" className="tool-input " id="roll-number" aria-label="First name"
+                                    placeholder="Enter roll number" />
+
+
+                            </div>
+                            <div className="input-group">
+
+                                <select name="" id="semester" className="tool-input">
+                                    <option >Select your semester</option>
+                                    <option value="1st semester">1st semester</option>
+                                    <option value="2nd semester">2nd semester</option>
+                                    <option value="3rd semester">3rd semester</option>
+                                    <option value="4th semester">4th semester</option>
+                                    <option value="5th semester">5th semester</option>
+                                    <option value="6th semester">6th semester</option>
+                                    <option value="7th semester">7th semester</option>
+                                    <option value="8th semester">8th semester</option>
+
+                                </select>
+
+
+
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <button type="button" className="btn btn-danger" id="back2">Back</button>
+
+
+                                </div>
+                                <div className="col-lg-6">
+                                    <button type="button" className="btn btn-success" id="next2">Next</button>
                                 </div>
 
                             </div>
@@ -244,59 +293,14 @@ class Tool extends React.Component {
                             </div>
                         </section>
 
+
+
+
+
                     </div>
-                    <div className="col-lg-6">
-                        <img src="d3.png" className="tool-img" alt="" id="next-img-1" />
-                        <img src="pngtree-e-learning-class-flat-illustration-png-png-image_3727055-removebg-preview.png"
-                            className="tool-img" alt="" style={{ display: "none", paddingBottom: "100px" }} id="next-img-3" />
-                        <br />
-                        <br />
-                        <section id="next-2">
-                            <div className="input-group">
-
-                                <input type="text " className="tool-input " id="student-name" aria-label="First name"
-                                    placeholder="Enter student's name" />
+                    <div className="col-lg-2 col-xxl-2" >
 
 
-                            </div>
-
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="roll-number" aria-label="First name"
-                                    placeholder="Enter roll number" />
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <select name="" id="semester" className="tool-input">
-                                    <option >Select your semester</option>
-                                    <option value="1st semester">1st semester</option>
-                                    <option value="2nd semester">2nd semester</option>
-                                    <option value="3rd semester">3rd semester</option>
-                                    <option value="4th semester">4th semester</option>
-                                    <option value="5th semester">5th semester</option>
-                                    <option value="6th semester">6th semester</option>
-                                    <option value="7th semester">7th semester</option>
-                                    <option value="8th semester">8th semester</option>
-
-                                </select>
-
-
-
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-danger" id="back2">Back</button>
-
-
-                                </div>
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-success" id="next2">Next</button>
-                                </div>
-
-                            </div>
-                        </section>
 
 
 

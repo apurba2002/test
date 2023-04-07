@@ -3,44 +3,42 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 80%;
         margin-left: 10%;
-        text-align: center;
+        text-align: left;
     }
     .privacy-txt a{
         color: blue;
     }
     #privacy{
         padding-bottom: 100px;
-        background-image: url("PRIVACY\ POLICY_SP_2x.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
+        
     }
     .privacy-head{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
+        text-align: left;
         font-size: 50px;
         margin-bottom: 50px;
         padding-top: 50px;
+        margin-left: 10%;
     }
 }
 @media only screen and (max-width :1023px) {
     #privacy{
         padding-bottom: 50px;
-        background-image: url("PRIVACY\ POLICY_SP_2x.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
+        
     }
     .privacy-head{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
+        text-align: left;
         font-size: 30px;
         margin-bottom: 30px;
         padding-top: 20px;
+        margin-left: 10%;
     }   
     .privacy-txt{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 80%;
         margin-left: 10%;
-        text-align: center;
+        text-align: left;
         font-size: 6pt;
         font-weight: 700;
     }
@@ -51,23 +49,22 @@
 @media only screen and (min-width :2560px) {
     #privacy{
         padding-bottom: 50px;
-        background-image: url("PRIVACY\ POLICY_SP_2x.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
+        
         height: 1100px;
     }
     .privacy-head{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center;
+        text-align: left;
         font-size: 100px;
         margin-bottom: 30px;
         padding-top: 20px;
+        margin-left: 10%;
     }   
     .privacy-txt{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 80%;
         margin-left: 10%;
-        text-align: center;
+        text-align: left;
         font-size: 15pt;
         font-weight: 700;
     }

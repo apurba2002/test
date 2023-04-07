@@ -2,8 +2,8 @@ const About = () => {
     return (
         <section id="about">
             <div className="row">
-                
-                <div className="col-lg-12 col-12">
+                <div className="col-lg-2"></div>
+                <div className="col-lg-8 col-12">
                     <p className="about-head">
                         Why you will use it?
                     </p>
@@ -34,7 +34,7 @@ const About = () => {
                         design elements. This means that users can create a professional-looking cover page without
                         breaking the bank.
                     </p>
-                    <p className="about-txt" style={{marginBottom:"100px"}}>
+                    <p className="about-txt" style={{marginBottom:"50px"}}>
                         In conclusion, cover page creators are valuable tools for anyone looking to create a
                         professional-looking cover page quickly and easily. They offer a wide range of design options,
                         are cost-effective, and save time and effort. With the help of cover page creator, anyone can
@@ -42,6 +42,7 @@ const About = () => {
                     </p>
 
                 </div>
+                <div className="col-lg-2"></div>
 
             </div>
         </section>

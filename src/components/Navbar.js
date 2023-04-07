@@ -33,9 +33,7 @@ class Navbar extends React.Component {
                                         <li className="nav-item">
                                             <a className="nav-link" href="#contact"  >Contract</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#tool">Tools</a>
-                                        </li>
+                                       
                                         <li className="nav-item">
                                             <a className="nav-link" >Templetes</a>
                                         </li>
@@ -44,9 +42,7 @@ class Navbar extends React.Component {
                                             <a className="nav-link" href="#about" >About Us</a>
                                         </li>
 
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#credit" > Credit</a>
-                                        </li>
+                                        
                                         <li className="nav-item">
                                             <a className="nav-link" href="#privacy" >Privacy policy</a>
                                         </li>

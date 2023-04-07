@@ -2,7 +2,8 @@ const Privacy=()=>{
     return(
         <section id="privacy">
         <div className="row">
-            <div className="col-lg-12 col-12 ">
+            <div className="col-lg-2"></div>
+            <div className="col-lg-8 col-12 ">
                 <p className="privacy-head">
                     Privacy policy
                 </p>
@@ -72,6 +73,7 @@ const Privacy=()=>{
                     protected.
                 </p>
             </div>
+            <div className="col-lg-2"></div>
         </div>
     </section>
 

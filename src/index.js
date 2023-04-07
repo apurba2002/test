@@ -17,13 +17,18 @@ const App = () => {
     return (
         <>
             <Navbar />
-            <Baner />
-            <About />
+            
             <Tool />
+            <hr></hr>
+            <About />
+            <hr></hr>
+           
             <Contact />
+            <hr></hr>
             <Privacy />
-            <Credit />
             <Footer />
+           
+           
            
         </> 
 

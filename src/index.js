@@ -19,12 +19,12 @@ const App = () => {
             <Navbar />
             
             <Tool />
-            <hr></hr>
+            
             <About />
-            <hr></hr>
+            
            
             <Contact />
-            <hr></hr>
+           
             <Privacy />
             <Footer />
            

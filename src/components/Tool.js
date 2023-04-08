@@ -1,6 +1,8 @@
 import React from "react"
 import $ from "jquery"
+import 'animate.css';
 import { ReactDOM } from "react"
+import anime from 'animejs/lib/anime.es.js';
 
 
 import { render } from "@testing-library/react"
@@ -8,6 +10,15 @@ import { Link } from "react-router-dom"
 import Baner from "./Baner"
 class Tool extends React.Component {
     componentDidMount() {
+   
+        $("#tool").mouseover(function() {
+            $("h2").addClass("heading-animation");
+          });
+        
+          $("#tool").mouseout(function() {
+            $("h2").removeClass("heading-animation");
+          });
+      
         var pr = 0
         $("#next3").click(() => {
             if (($("#department").val()) === "") {
@@ -136,7 +147,7 @@ class Tool extends React.Component {
 
     render() {
         return (
-            <div className="main" id="tool" style={{marginBottom:"150px"}}>
+            <div className="main" id="tool" style={{paddingBottom:"150px"}}>
 
 
                 <div className="row">
@@ -148,7 +159,7 @@ class Tool extends React.Component {
 
                     </div>
                     <div className="col-lg-8 col-xxl-8" >
-                        <h2 style={{ textAlign: "left" ,marginLeft: "10%",marginBottom:"50px" , marginTop:"50px"}}>
+                        <h2  style={{ textAlign: "left" ,marginLeft: "10%",marginBottom:"50px" , marginTop:"50px" ,}}>
                             Enter your details and create something awsome
                         </h2>
 

@@ -4,7 +4,7 @@
        
         
         height: 400px;
-        margin-top: 100px;
+       
         
        
 
@@ -38,7 +38,7 @@
        
         
         height: 600px;
-        margin-top: 100px;
+      
         
        
 
@@ -68,7 +68,7 @@
 @media only screen and (min-width :768px) {
     #about{
         height: 495px;
-        margin-top: 100px;
+       
     }
 }
 @media (min-width :1024px) {
@@ -76,7 +76,7 @@
         
         
         height: 950px;
-        margin-top: 100px;
+       
         
        
 
@@ -108,11 +108,12 @@
         
         
         height: 820px;
-        margin-top: 100px;
+    
         
        
 
     }
+    
     .about-head {
         text-align: left;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -139,7 +140,7 @@
         
         
         height: 1190px;
-        margin-top: 100px;
+       
         
        
 
@@ -165,4 +166,24 @@
 
 
     }
+}
+.anim{
+    animation: flip;
+    animation-duration: 2s;
+}
+#about{
+    background-image: url("download\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+}
+.about-head{
+    color: whitesmoke;
+    
+
+}
+.about-txt{
+    color: whitesmoke;
 }

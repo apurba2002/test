@@ -12,6 +12,7 @@
         font-size: 20px;
         padding-top: 20px;
         margin-left: 10%;
+        color: whitesmoke ;
       
         
     
@@ -27,7 +28,7 @@
     
     .contact-details a {
         text-decoration: none;
-        color: black;
+       
     }
     
     .contact-details a:hover {
@@ -65,6 +66,7 @@
     .feed-txt {
         margin-left: 10%;
         margin-bottom: 0;
+        color: whitesmoke;
     }
     
     .feed-btn:hover {
@@ -76,6 +78,7 @@
     }
     .feed-head{
         margin-left: 10%;
+        color: whitesmoke;
     }
 }
 
@@ -107,7 +110,7 @@
     
     .contact-details a {
         text-decoration: none;
-        color: black;
+       
     }
     
     .contact-details a:hover {
@@ -145,6 +148,7 @@
     .feed-txt {
         margin-left: 10%;
         margin-bottom: 0;
+        color: whitesmoke;
     }
     
     .feed-btn:hover {
@@ -183,6 +187,7 @@
         font-size: 130px;
         padding-top: 50px;
         margin-left: 5%;
+        color: whitesmoke;
         
     
     }
@@ -196,7 +201,7 @@
     
     .contact-details a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
     
     .contact-details a:hover {
@@ -235,10 +240,12 @@
         margin-left: 10%;
         margin-bottom: 0;
         font-size: 50px;
+        color: white;
     }
     .feed-head{
         font-size: 50px;
         font-weight: 400;
+        color: whitesmoke;
     }
     
     .feed-btn:hover {
@@ -261,4 +268,24 @@
         margin-bottom: 20px;
         margin-left: 10%;
     }
+}
+.ani{
+    animation:fadeInLeft;
+    animation-duration: 2s;
+
+}
+#contact{
+    background-image: url("images\ \(7\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-details a{
+    color: whitesmoke;
+}
+.contact-head{
+    color: whitesmoke;
+}
+.feed-head{
+    color: white;
 }

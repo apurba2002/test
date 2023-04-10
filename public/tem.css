@@ -1,0 +1,14 @@
+.tem-head{
+    width: 50%;
+  
+}
+img{
+    margin-top: 50px;
+}
+#templete{
+    padding-bottom: 100px;
+}
+.temp-animation{
+    animation: hinge; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}

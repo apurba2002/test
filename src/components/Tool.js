@@ -10,14 +10,15 @@ import { Link } from "react-router-dom"
 import Baner from "./Baner"
 class Tool extends React.Component {
     componentDidMount() {
-   
-        $("#tool").mouseover(function() {
+
+        $("#tool").mouseover(function () {
             $("h2").addClass("heading-animation");
-          });
-        
-          $("#tool").mouseout(function() {
+        });
+
+        $("#tool").mouseout(function () {
             $("h2").removeClass("heading-animation");
-          });
+        });
+        
       
         var pr = 0
         $("#next3").click(() => {
@@ -147,183 +148,190 @@ class Tool extends React.Component {
 
     render() {
         return (
-            <div className="main" id="tool" style={{paddingBottom:"150px"}}>
+            <>
 
 
-                <div className="row">
-                    <div className="col-lg-2 col-xxl-2">
+                
+                <div className="main" id="tool" style={{ paddingBottom: "150px" }}>
 
 
+
+
+                    <div className="row">
+                        <div className="col-lg-2 col-xxl-2">
+
+
+
+
+
+                        </div>
+                        <div className="col-lg-8 col-xxl-8" >
+                            <h2 style={{ textAlign: "left", marginLeft: "10%", marginBottom: "50px", marginTop: "50px", }}>
+                                Enter your details and create something awsome
+                            </h2>
+
+                            <section id="next-1">
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="sub-name" aria-label="First name"
+                                        placeholder="Enter the subject name" />
+
+
+                                </div>
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="job-name" aria-label="First name"
+                                        placeholder="Enter job name" />
+
+
+                                </div>
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="job-no" aria-label="First name"
+                                        placeholder="Enter job no" />
+
+
+                                </div>
+
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="teacher-name" aria-label="First name"
+                                        placeholder="Enter teacher's name" />
+
+                                </div>
+
+
+                                <div className="row">
+                                    <div className="col-lg-6">
+
+
+
+                                    </div>
+                                    <div className="col-lg-6 col-xxl-6">
+                                        <button type="button" className="btn btn-success" id="next1">Next</button>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section id="next-2">
+                                <div className="input-group">
+
+                                    <input type="text " className="tool-input " id="student-name" aria-label="First name"
+                                        placeholder="Enter student's name" />
+
+
+                                </div>
+
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="roll-number" aria-label="First name"
+                                        placeholder="Enter roll number" />
+
+
+                                </div>
+                                <div className="input-group">
+
+                                    <select name="" id="semester" className="tool-input">
+                                        <option >Select your semester</option>
+                                        <option value="1st semester">1st semester</option>
+                                        <option value="2nd semester">2nd semester</option>
+                                        <option value="3rd semester">3rd semester</option>
+                                        <option value="4th semester">4th semester</option>
+                                        <option value="5th semester">5th semester</option>
+                                        <option value="6th semester">6th semester</option>
+                                        <option value="7th semester">7th semester</option>
+                                        <option value="8th semester">8th semester</option>
+
+                                    </select>
+
+
+
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-danger" id="back2">Back</button>
+
+
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-success" id="next2">Next</button>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section id="next-3">
+                                <div className="input-group">
+
+
+                                    <select name="" id="department" className="tool-input">
+                                        <option >Select your department</option>
+                                        <option value="Computer Technology ">Computer Technology</option>
+                                        <option value="Printing Technology">Printing Technology</option>
+                                        <option value="Graphics design Technology">Graphics Design</option>
+                                    </select>
+
+
+                                </div>
+                                <div className="input-group">
+
+                                    <select name="" id="shift" className="tool-input">
+                                        <option >Select your shift</option>
+                                        <option value="1st shift">1st shift</option>
+                                        <option value="2nd shift">2nd shift</option>
+
+                                    </select>
+
+
+                                </div>
+                                <div className="input-group">
+
+                                    <select name="" id="theme-change" className="tool-input">
+                                        <option >Select your color theme</option>
+                                        <option value="default">Default theme</option>
+                                        <option value="lightblue">Light blue theme</option>
+                                        <option value="green">Green theme</option>
+                                        <option value="pink">Pink theme</option>
+                                        <option value="brown">Brown theme</option>
+                                        <option value="orange">Orange theme</option>
+
+                                    </select>
+
+                                </div>
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-danger" id="back3"> Back</button>
+
+
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-success" id="next3"
+                                        >Submit</button>
+                                    </div>
+
+                                </div>
+                            </section>
+
+
+
+
+
+                        </div>
+                        <div className="col-lg-2 col-xxl-2" >
+
+
+
+
+
+
+
+                        </div>
 
 
 
                     </div>
-                    <div className="col-lg-8 col-xxl-8" >
-                        <h2  style={{ textAlign: "left" ,marginLeft: "10%",marginBottom:"50px" , marginTop:"50px" ,}}>
-                            Enter your details and create something awsome
-                        </h2>
 
-                        <section id="next-1">
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="sub-name" aria-label="First name"
-                                    placeholder="Enter the subject name" />
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="job-name" aria-label="First name"
-                                    placeholder="Enter job name" />
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="job-no" aria-label="First name"
-                                    placeholder="Enter job no" />
-
-
-                            </div>
-
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="teacher-name" aria-label="First name"
-                                    placeholder="Enter teacher's name" />
-
-                            </div>
-
-
-                            <div className="row">
-                                <div className="col-lg-6">
-
-
-
-                                </div>
-                                <div className="col-lg-6 col-xxl-6">
-                                    <button type="button" className="btn btn-success" id="next1">Next</button>
-                                </div>
-
-                            </div>
-                        </section>
-                        <section id="next-2">
-                            <div className="input-group">
-
-                                <input type="text " className="tool-input " id="student-name" aria-label="First name"
-                                    placeholder="Enter student's name" />
-
-
-                            </div>
-
-                            <div className="input-group">
-
-                                <input type="text" className="tool-input " id="roll-number" aria-label="First name"
-                                    placeholder="Enter roll number" />
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <select name="" id="semester" className="tool-input">
-                                    <option >Select your semester</option>
-                                    <option value="1st semester">1st semester</option>
-                                    <option value="2nd semester">2nd semester</option>
-                                    <option value="3rd semester">3rd semester</option>
-                                    <option value="4th semester">4th semester</option>
-                                    <option value="5th semester">5th semester</option>
-                                    <option value="6th semester">6th semester</option>
-                                    <option value="7th semester">7th semester</option>
-                                    <option value="8th semester">8th semester</option>
-
-                                </select>
-
-
-
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-danger" id="back2">Back</button>
-
-
-                                </div>
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-success" id="next2">Next</button>
-                                </div>
-
-                            </div>
-                        </section>
-                        <section id="next-3">
-                            <div className="input-group">
-
-
-                                <select name="" id="department" className="tool-input">
-                                    <option >Select your department</option>
-                                    <option value="Computer Technology ">Computer Technology</option>
-                                    <option value="Printing Technology">Printing Technology</option>
-                                    <option value="Graphics design Technology">Graphics Design</option>
-                                </select>
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <select name="" id="shift" className="tool-input">
-                                    <option >Select your shift</option>
-                                    <option value="1st shift">1st shift</option>
-                                    <option value="2nd shift">2nd shift</option>
-
-                                </select>
-
-
-                            </div>
-                            <div className="input-group">
-
-                                <select name="" id="theme-change" className="tool-input">
-                                    <option >Select your color theme</option>
-                                    <option value="default">Default theme</option>
-                                    <option value="lightblue">Light blue theme</option>
-                                    <option value="green">Green theme</option>
-                                    <option value="pink">Pink theme</option>
-                                    <option value="brown">Brown theme</option>
-                                    <option value="orange">Orange theme</option>
-
-                                </select>
-
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-danger" id="back3"> Back</button>
-
-
-                                </div>
-                                <div className="col-lg-6">
-                                    <button type="button" className="btn btn-success" id="next3"
-                                    >Submit</button>
-                                </div>
-
-                            </div>
-                        </section>
-
-
-
-
-
-                    </div>
-                    <div className="col-lg-2 col-xxl-2" >
-
-
-
-
-
-
-
-                    </div>
-
-
-
-                </div>
-
-            </div>
+                </div >
+            </>
 
 
 

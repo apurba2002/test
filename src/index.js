@@ -12,20 +12,25 @@ import Credit from './components/Credit';
 import Privacy from './components/Privacy';
 import Tool from './components/Tool';
 import Cover from './components/cover';
+import Landing from './components/Landing';
+import Temp from './components/Temp';
 
 const App = () => {
     return (
         <>
             <Navbar />
+            <Landing />
+            <Temp />
             
             <Tool />
-            
+            <hr></hr>
             <About />
-            
+            <hr></hr>
            
             <Contact />
-           
+            <hr></hr>
             <Privacy />
+         
             <Footer />
            
            

@@ -35,7 +35,7 @@ class Navbar extends React.Component {
                                         </li>
                                        
                                         <li className="nav-item">
-                                            <a className="nav-link" >Templetes</a>
+                                            <a className="nav-link" href="#templete" >Templetes</a>
                                         </li>
 
                                         <li className="nav-item">

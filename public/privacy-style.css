@@ -72,7 +72,10 @@
         color: blue;
     }
 }
-.privacy-head:hover{
-    animation: heartBeat;
+.privacy-animation{
+    animation:flipInY;
     animation-duration: 2s;
+}
+.privacy-head{
+    color: blue;
 }

@@ -26,7 +26,7 @@
                             <a href="#about" ><button>Learn more</button></a>
                         </div>
                         <div className="col-lg-6">
-                            <img src="166-Virtual-Reality.png"></img>
+                            <img className="side-img" src="166-Virtual-Reality.png"></img>
                         </div>
                 </div>
             </section>

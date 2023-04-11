@@ -273,7 +273,16 @@
     }
 }
 .ani{
-    animation:fadeInLeft;
+    animation:rollIn;
     animation-duration: 2s;
 
+}
+.contact-head{
+    color: blue;
+}
+.feed-head{
+    color: blue;
+}
+.feed-txt{
+    color: blue;
 }

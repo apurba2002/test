@@ -18,8 +18,8 @@ class Tool extends React.Component {
         $("#tool").mouseout(function () {
             $("h2").removeClass("heading-animation");
         });
-        
-      
+
+
         var pr = 0
         $("#next3").click(() => {
             if (($("#department").val()) === "") {
@@ -52,8 +52,8 @@ class Tool extends React.Component {
 
 
                         sessionStorage.setItem("teachername", teachername)
-                        var theme = $("#theme-change").val()
-                        sessionStorage.setItem("theme", theme)
+
+
                         var jobno = $("#job-no").val()
                         sessionStorage.setItem("job-no", jobno)
                         var semester = $("#semester").val()
@@ -88,19 +88,11 @@ class Tool extends React.Component {
                         $("#job-no").css("border-color", "red")
                     }
                     else {
-                        if (($("#teacher-name").val()) === "") {
+                        $(".tool-input").css("border-color", "lightgray")
+                        $("#next-1").hide("slow")
 
+                        $("#next-2").show("slow")
 
-                            $("#teacher-name").css("border-color", "red")
-                        }
-                        else {
-
-                            $(".tool-input").css("border-color", "lightgray")
-                            $("#next-1").hide("slow")
-
-                            $("#next-2").show("slow")
-
-                        }
                     }
                 }
             }
@@ -108,16 +100,18 @@ class Tool extends React.Component {
 
         })
         $("#next2").click(function () {
-            if (($("#student-name").val()) === "") {
-                $("#student-name").css("border-color", "red")
+            if (($("#teacher-name").val()) === "") {
+
+
+                $("#teacher-name").css("border-color", "red")
             }
             else {
-                if (($("#roll-number").val()) === "") {
-                    $("roll-number").css("border-color", "red")
+                if (($("#student-name").val()) === "") {
+                    $("#student-name").css("border-color", "red")
                 }
                 else {
-                    if (($("#semester").val()) === "") {
-                        $("#semester").css("border-color", "red")
+                    if (($("#roll-number").val()) === "") {
+                        $("roll-number").css("border-color", "red")
                     }
                     else {
                         $(".tool-input").css("border-color", "lightgray")
@@ -127,7 +121,11 @@ class Tool extends React.Component {
 
                     }
                 }
+
+
             }
+
+
 
         })
         $("#back3").click(function () {
@@ -142,6 +140,10 @@ class Tool extends React.Component {
             $("#next-1").show("slow")
 
         })
+        $(".b2").click(() => {
+            $("#tool").hide()
+            $("#templete").show()
+        })
 
 
     }
@@ -151,7 +153,7 @@ class Tool extends React.Component {
             <>
 
 
-                
+
                 <div className="main" id="tool" style={{ paddingBottom: "150px" }}>
 
 
@@ -193,17 +195,11 @@ class Tool extends React.Component {
 
                                 </div>
 
-                                <div className="input-group">
-
-                                    <input type="text" className="tool-input " id="teacher-name" aria-label="First name"
-                                        placeholder="Enter teacher's name" />
-
-                                </div>
 
 
                                 <div className="row">
                                     <div className="col-lg-6">
-
+                                        <button type="button" className="btn btn-danger b2" >Back</button>
 
 
                                     </div>
@@ -214,6 +210,13 @@ class Tool extends React.Component {
                                 </div>
                             </section>
                             <section id="next-2">
+
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="teacher-name" aria-label="First name"
+                                        placeholder="Enter teacher's name" />
+
+                                </div>
                                 <div className="input-group">
 
                                     <input type="text " className="tool-input " id="student-name" aria-label="First name"
@@ -229,6 +232,20 @@ class Tool extends React.Component {
 
 
                                 </div>
+
+                                <div className="row">
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-danger" id="back2">Back</button>
+
+
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <button type="button" className="btn btn-success" id="next2">Next</button>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <section id="next-3">
                                 <div className="input-group">
 
                                     <select name="" id="semester" className="tool-input">
@@ -247,19 +264,6 @@ class Tool extends React.Component {
 
 
                                 </div>
-                                <div className="row">
-                                    <div className="col-lg-6">
-                                        <button type="button" className="btn btn-danger" id="back2">Back</button>
-
-
-                                    </div>
-                                    <div className="col-lg-6">
-                                        <button type="button" className="btn btn-success" id="next2">Next</button>
-                                    </div>
-
-                                </div>
-                            </section>
-                            <section id="next-3">
                                 <div className="input-group">
 
 
@@ -283,20 +287,7 @@ class Tool extends React.Component {
 
 
                                 </div>
-                                <div className="input-group">
 
-                                    <select name="" id="theme-change" className="tool-input">
-                                        <option >Select your color theme</option>
-                                        <option value="default">Default theme</option>
-                                        <option value="lightblue">Light blue theme</option>
-                                        <option value="green">Green theme</option>
-                                        <option value="pink">Pink theme</option>
-                                        <option value="brown">Brown theme</option>
-                                        <option value="orange">Orange theme</option>
-
-                                    </select>
-
-                                </div>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <button type="button" className="btn btn-danger" id="back3"> Back</button>

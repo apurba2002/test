@@ -171,7 +171,6 @@
     animation: flip;
     animation-duration: 2s;
 }
-#about{
-  
-    
+.about-head{
+    color: blue;
 }

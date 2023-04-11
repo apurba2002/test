@@ -171,19 +171,6 @@
     animation: flip;
     animation-duration: 2s;
 }
-#about{
-    background-image: url("download\ \(3\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    
-}
 .about-head{
-    color: whitesmoke;
-    
-
-}
-.about-txt{
-    color: whitesmoke;
+    color: blue;
 }

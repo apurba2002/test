@@ -29,6 +29,7 @@
     }
     h2{
         width: 80%;
+        color: blue;
     }
 }
 
@@ -138,6 +139,7 @@
         text-align: center;
         margin-bottom: 50px;
         padding-top: 50px;
+        color: blue;
         
     }
 
@@ -251,26 +253,33 @@
 }
 
 .btn-success:hover{
-    animation: jello;
+    animation: heartBeat;
     animation-duration: 2s;
+    
+
 }
 .btn-danger:hover{
-    animation: jello;
+    animation: heartBeat;
     animation-duration: 2s;
 }
 .heading-animation{
     animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; /* don't forget to set a duration! */
 }
+.btn-success{
+    background-color: rgb(211, 202, 243);
+    border: 1px solid blue;
+    color: black;
+}
+.btn-danger{
+    background-color: rgb(211, 202, 243);
+    border: 1px solid blue;
+    color: black;
+}
 #tool{
-    background-image: url( "wp3006049.jpg");
-    
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: none;
 }
-h2{
-    color: whitesmoke;
-}
+
 
 
 

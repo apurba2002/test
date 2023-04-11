@@ -72,21 +72,10 @@
         color: blue;
     }
 }
-.privacy-head:hover{
-    animation: heartBeat;
+.privacy-animation{
+    animation:flipInY;
     animation-duration: 2s;
 }
-#privacy{
-    background-image: url("download\ \(4\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    
-    
-}
 .privacy-head{
-    color: whitesmoke;
-}
-.privacy-txt{
-    color: whitesmoke;
+    color: blue;
 }

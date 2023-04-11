@@ -1,0 +1,56 @@
+#landing {
+    height: 500px;
+}
+
+#landing h1 {
+    margin-left: 38%;
+}
+
+#landing p {
+    margin-left: 38%;
+    font-size: 14pt;
+}
+
+#landing button {
+    margin-left: 38%;
+    background-color: rgb(211, 202, 243);
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#landing button:hover {
+    animation: heartBeat;
+    animation-duration: 2s;
+    background-color: blue;
+    color: white;
+}
+
+.land-ani {
+    animation: jackInTheBox;
+    animation-duration: 2s;
+}
+
+.side-img {
+    width: 62%;
+    margin-right: 38%;
+}
+
+@media (max-width:1023px) {
+    .side-img {
+        display: none;
+    }
+
+    #landing h1 {
+        margin-left: 10%;
+    }
+
+    #landing p {
+        margin-left: 10%;
+    }
+
+    #landing button {
+        margin-left: 10%;
+    }
+}

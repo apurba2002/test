@@ -59,7 +59,8 @@ class Tool extends React.Component {
                         var semester = $("#semester").val()
                         sessionStorage.setItem("semester", semester)
 
-                        window.location.href = "cover.html";
+                        var loc = sessionStorage.getItem("loc")
+                        window.location.href = loc;
 
 
 

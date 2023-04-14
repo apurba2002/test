@@ -23,7 +23,10 @@
                             </p>
                             <br>
                             </br>
-                            <a href="#about" ><button>Learn more</button></a>
+                            <a href="#templete" ><button>Use It Now</button></a>
+                            
+                            
+                            
                         </div>
                         <div className="col-lg-6">
                             <img className="side-img" src="166-Virtual-Reality.png"></img>

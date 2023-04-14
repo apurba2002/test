@@ -36,6 +36,7 @@
 }
 .info{
     font-size: 18pt;
+    margin: 0;
 }
 .row{
     display: flex;

@@ -21,17 +21,17 @@
 
 <body onload="show()">
     <div class="c2-paper" id="paper">
-        <h4 class=" heading layout job-no"> Job No: <span class="data" id="c-job-no">6</span></h4>
-        <h2 class=" heading layout job-name"> Job Name: <span class="data" id="c-job-name">Create a hello world program
+        <h4 class=" heading layout job-no" id="theme-jno"> Job No: <span class="data" id="c-job-no">6</span></h4>
+        <h2 class=" heading layout job-name" id="theme-jn"> Job Name: <span class="data" id="c-job-name">Create a hello world program
                 with
                 python</span></h2>
         <hr style="width: 80%; margin-left: 10%;">
-        <h1 class=" heading layout sub" id="c-sub-name">Web Development</h1>
+        <h1 class=" heading layout sub" id="c-sub-name" >Web Development</h1>
         <img src="pngtree-e-learning-class-flat-illustration-png-png-image_3727055-removebg-preview.png" alt=""
             srcset="" class=" img-thumbnail image ">
         <div class="row">
             <div style="width: 40%; margin-left: 10%;">
-                <h1 class=" heading  job-no">Submitted By</h1>
+                <h1 class=" heading  job-no" id="theme-sb">Submitted By</h1>
                 <p class=" info " id="c-student-name">Apura debnath</p>
                 <p class=" info" id="c-roll">555926</p>
                 <p class=" info" id="c-department">Computer Technology</p>
@@ -39,7 +39,7 @@
                 <p class=" info" id="c-shift">2nd shift</p>
             </div>
             <div style="width: 40%; margin-right: 10%; padding-top: 100px;">
-                <h1 class=" heading  job-no overline right-align">Submitted To</h1>
+                <h1 class=" heading  job-no overline right-align" id="theme-st">Submitted To</h1>
                 <p class="right-align info " id="c-teacher-name">Apura debnath</p>
                 <p class=" right-align info">Junior Instractor</p>
             </div>
@@ -134,16 +134,17 @@
             $("#theme-jr").css("color", "pink")
             $("#theme-jn").css("color", "pink")
             $("#theme-jno").css("color", "pink")
-            $("#theme-sb").css("color", "pink")
+            $("#c-sub-name").css("color", "pink")
             $("#theme-st").css("color", "pink")
             $("#theme-sg").css("color", "pink")
+            $("#theme-sb").css("color", "pink")
 
         }
         else if (theme === "lightblue") {
             $("#theme-jr").css("color", "lightblue ")
             $("#theme-jn").css("color", "lightblue")
             $("#theme-jno").css("color", "lightblue")
-            $("#theme-sb").css("color", "lightblue")
+            $("#c-sub-name").css("color", "lightblue")
             $("#theme-st").css("color", "lightblue")
             $("#theme-sg").css("color", "lightblue")
 
@@ -152,7 +153,7 @@
             $("#theme-jr").css("color", "burlywood")
             $("#theme-jn").css("color", "burlywood")
             $("#theme-jno").css("color", "burlywood")
-            $("#theme-sb").css("color", "burlywood")
+            $("#c-sub-name").css("color", "burlywood")
             $("#theme-st").css("color", "burlywood")
             $("#theme-sg").css("color", "burlywood")
 
@@ -161,7 +162,7 @@
             $("#theme-jr").css("color", "orange")
             $("#theme-jn").css("color", "orange")
             $("#theme-jno").css("color", "orange")
-            $("#theme-sb").css("color", "orange")
+            $("#c-sub-name").css("color", "orange")
             $("#theme-st").css("color", "orange")
             $("#theme-sg").css("color", "orange")
 

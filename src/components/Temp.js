@@ -88,7 +88,16 @@ class Temp extends React.Component {
             $("#tool").show()
             window.location.href = "#tool"
         })
+        $("#green-c2").click(() => {
+            var theme = "green"
+            var loc = "cover2.html"
 
+            sessionStorage.setItem("loc", loc)
+            sessionStorage.setItem("theme", theme)
+            $("#templete").hide()
+            $("#tool").show()
+            window.location.href = "#tool"
+        })
 
 
 
@@ -142,7 +151,7 @@ class Temp extends React.Component {
 
                     <div className="col-lg-2 col-md-2">
                         <img id="burlywood" src={"Screenshot (19).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark   text-center p-3 " style={{backgroundColor:"burlywood"}} >Simple wood finish</p>
+                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Simple wood finish</p>
 
 
                     </div>
@@ -169,7 +178,7 @@ class Temp extends React.Component {
 
                     <div className="col-lg-2 col-md-2">
                         <img id="default-c2" src={"c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid image default</p>
+                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid  default</p>
 
 
                     </div>
@@ -185,6 +194,8 @@ class Temp extends React.Component {
                     </div>
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
+                        <img id="green-c2" src={"green-2.png"} width={"100%"} height={"250px"}></img>
+                        <p className="temp-info text-light bg-success  text-center p-3 " style={{}}>Mid image green</p>
 
 
 

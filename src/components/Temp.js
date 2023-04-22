@@ -98,6 +98,36 @@ class Temp extends React.Component {
             $("#tool").show()
             window.location.href = "#tool"
         })
+        $("#orange-c2").click(() => {
+            var theme = "orange"
+            var loc = "cover2.html"
+
+            sessionStorage.setItem("loc", loc)
+            sessionStorage.setItem("theme", theme)
+            $("#templete").hide()
+            $("#tool").show()
+            window.location.href = "#tool"
+        })
+        $("#burlywood-c2").click(() => {
+            var theme = "brown"
+            var loc = "cover2.html"
+
+            sessionStorage.setItem("loc", loc)
+            sessionStorage.setItem("theme", theme)
+            $("#templete").hide()
+            $("#tool").show()
+            window.location.href = "#tool"
+        })
+        $("#lightblue-c2").click(() => {
+            var theme = "lightblue"
+            var loc = "cover2.html"
+
+            sessionStorage.setItem("loc", loc)
+            sessionStorage.setItem("theme", theme)
+            $("#templete").hide()
+            $("#tool").show()
+            window.location.href = "#tool"
+        })
 
 
 
@@ -198,6 +228,38 @@ class Temp extends React.Component {
                         <p className="temp-info text-light bg-success  text-center p-3 " style={{}}>Mid image green</p>
 
 
+
+                    </div>
+                    <div className="col-lg-2 col-md-1"></div>
+
+
+
+
+
+
+                    {/* row 4 */}
+                    <div className="col-lg-2 col-md-1 "></div>
+
+                    <div className="col-lg-2 col-md-2">
+                        <img id="orange-c2" src={"orange-c2.png"} width={"100%"} height={"250px"}></img>
+                        <p className=" temp-info text-light  bg-warning text-center p-3 " >Mid image orange</p>
+
+
+                    </div>
+                    <div className="col-lg-1 col-md-2">
+
+                    </div>
+                    <div className="col-lg-2 col-md-2">
+
+                        <img id="burlywood-c2" src={"b-c2.png"} width={"100%"} height={"250px"}></img>
+                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Mid image wood finish</p>
+
+
+                    </div>
+                    <div className="col-lg-1 col-md-2"></div>
+                    <div className="col-lg-2 col-md-2">
+                        <img id="lightblue-c2" src={"lb-c2.png"} width={"100%"} height={"250px"}></img>
+                        <p className=" temp-info text-dark  bg-info text-center p-3 " >Mid image sky blue</p>
 
                     </div>
                     <div className="col-lg-2 col-md-1"></div>

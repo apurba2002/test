@@ -55,11 +55,7 @@
                         Please wait your document is creating
                     </h1>
                     <br>
-                    <div id="bar">
-                        <div id="in-bar">
-
-                        </div>
-                    </div>
+                    
                     <h1 class="txt txt-lg">
                         Your document is ready for download.
                     </h1>
@@ -150,6 +146,7 @@
             $("#c-sub-name").css("color", "lightblue")
             $("#theme-st").css("color", "lightblue")
             $("#theme-sg").css("color", "lightblue")
+            $("#theme-sb").css("color", "lightblue")
 
         }
         else if (theme === "brown") {
@@ -159,6 +156,7 @@
             $("#c-sub-name").css("color", "burlywood")
             $("#theme-st").css("color", "burlywood")
             $("#theme-sg").css("color", "burlywood")
+            $("#theme-sb").css("color", "burlywood")
 
         }
         else if (theme === "orange") {
@@ -168,6 +166,7 @@
             $("#c-sub-name").css("color", "orange")
             $("#theme-st").css("color", "orange")
             $("#theme-sg").css("color", "orange")
+            $("#theme-sb").css("color", "orange")
 
         }
 
@@ -186,13 +185,12 @@
         }
         function show() {
 
-            $("#in-bar").addClass("go")
+           
 
 
             setTimeout(function () {
                 $(".title").hide(1000)
-                $("#bar").hide(1000)
-
+             
                 $(".txt").show()
                 setTimeout(function () {
                     $("#button").slideDown()

@@ -38,9 +38,7 @@
 }
 
 @media (max-width:1023px) {
-    #landing{
-        display: none;
-    }
+   
     .side-img {
         display: none;
     }

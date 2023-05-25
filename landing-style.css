@@ -13,19 +13,10 @@
 
 #landing button {
     margin-left: 38%;
-    background-color: rgb(211, 202, 243);
-    border: 1px solid blue;
-    padding: 20px;
-    border-radius: 10px;
+    
 
 }
 
-#landing button:hover {
-    animation: heartBeat;
-    animation-duration: 2s;
-    background-color: blue;
-    color: white;
-}
 
 .land-ani {
     animation: jackInTheBox;

@@ -20,7 +20,7 @@ const App = () => {
         <>
             <Navbar />
             <Landing />
-            <Temp />
+            <Temp  />
             
             <Tool />
             <hr></hr>

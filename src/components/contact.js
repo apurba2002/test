@@ -2,13 +2,7 @@ import React from "react";
 import $ from "jquery"
 class Contact extends React.Component {
     componentDidMount(){
-        $("#contact").mouseover(function() {
-            $(".contact-head").addClass("ani");
-          });
-        
-          $("#contact").mouseout(function() {
-            $(".contact-head").removeClass("ani");
-          });
+       
     }
     render() {
         return (

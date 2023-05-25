@@ -6,13 +6,7 @@ import anime from "animejs";
 class About extends React.Component{
     
     componentDidMount(){
-        $("#about").mouseover(function() {
-            $(".about-head").addClass("anim");
-          });
-        
-          $("#about").mouseout(function() {
-            $(".about-head").removeClass("anim");
-          });
+      
     }
 
     render(){

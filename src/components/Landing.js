@@ -2,12 +2,7 @@
  import $ from "jquery"
  class Landing extends React.Component{
     componentDidMount(){
-        $("#landing").mouseover(()=>{
-            $(".land-head").addClass("land-ani")
-        })
-        $("#landing").mouseout(()=>{
-            $(".land-head").removeClass("land-ani")
-        })
+     
     }
     render(){
         return(
@@ -23,7 +18,7 @@
                             </p>
                             <br>
                             </br>
-                            <a href="#templete" ><button>Use It Now</button></a>
+                            <a href="#templete" ><button className="btn btn-primary">Use It Now</button></a>
                             
                             
                             

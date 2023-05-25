@@ -60,6 +60,8 @@ class Tool extends React.Component {
                         sessionStorage.setItem("semester", semester)
 
                         var loc = sessionStorage.getItem("loc")
+                        const teacherdes = document.querySelector("#teacher-des").value;
+                        sessionStorage.setItem("teacherdes",teacherdes);
                         window.location.href = loc;
 
 
@@ -216,6 +218,12 @@ class Tool extends React.Component {
 
                                     <input type="text" className="tool-input " id="teacher-name" aria-label="First name"
                                         placeholder="Enter teacher's name" />
+
+                                </div>
+                                <div className="input-group">
+
+                                    <input type="text" className="tool-input " id="teacher-des" aria-label="First name"
+                                        placeholder="Enter teacher's designation" />
 
                                 </div>
                                 <div className="input-group">

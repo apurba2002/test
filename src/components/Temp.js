@@ -2,12 +2,7 @@ import React from "react";
 import $ from "jquery"
 class Temp extends React.Component {
     componentDidMount() {
-        $("#templete").mouseover(() => {
-            $(".tem-head").addClass("temp-animation")
-        })
-        $("#templete").mouseout(() => {
-            $(".tem-head").removeClass("temp-animation")
-        })
+       
         $("#default").click(() => {
             var theme = "default"
             sessionStorage.setItem("theme", theme)
@@ -252,7 +247,7 @@ class Temp extends React.Component {
                     <div className="col-lg-2 col-md-2">
 
                         <img id="burlywood-c2" src={"b-c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Mid image wood finish</p>
+                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Mid wood finish</p>
 
 
                     </div>

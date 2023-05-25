@@ -15,9 +15,9 @@ class Navbar extends React.Component {
     render() {
         return (
             <>
-                <section id="head">
+                <section id="head" >
                     <div className="head">
-                        <nav className="navbar navbar-expand-lg bg-light">
+                        <nav className="navbar fixed-top  navbar-dark navbar-expand-lg bg-primary">
                             <div className="container-fluid">
                                 <a className="navbar-brand" href="#">Cover page creator</a>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,26 +28,26 @@ class Navbar extends React.Component {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
-                                            <a className="nav-link active" id="home" aria-current="page" >Home</a>
+                                            <a className=" btn btn-primary " id="home"  >Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#contact"  >Contract</a>
+                                            <a className=" btn btn-primary " href="#contact"  >Contract</a>
                                         </li>
                                        
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#templete" >Templetes</a>
+                                            <a className=" btn btn-primary" href="#templete" >Templetes</a>
                                         </li>
 
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#about" >About Us</a>
+                                            <a className=" btn btn-primary" href="#about" >About Us</a>
                                         </li>
 
                                         
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#privacy" >Privacy policy</a>
+                                            <a className=" btn btn-primary" href="#privacy" >Privacy policy</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link">Your profile</a>
+                                            <a className="btn btn-primary" href="https://apurba2002.github.io/resume/" target="blank">Try our new Resume.com</a>
                                         </li>
 
 

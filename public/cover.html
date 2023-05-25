@@ -65,7 +65,7 @@
                 <h1 id="theme-st">Submited to </h1>
                 <p id="c-teacher-name"></p>
 
-                <p>Junior Instractor</p>
+                <p id="c-teacherds"></p>
 
 
 
@@ -141,6 +141,7 @@
         document.getElementById('c-teacher-name').innerHTML = sessionStorage.getItem('teachername')
         $("#c-job-no").text(sessionStorage.getItem("job-no"))
         $("#c-semester").text(sessionStorage.getItem("semester"))
+        document.querySelector("#c-teacherds").innerHTML=sessionStorage.getItem("teacherdes");
 
         var theme = sessionStorage.getItem('theme');
 
@@ -205,16 +206,17 @@
 
         }
         function show() {
-
-
+            $(".title").hide(1000)
+            $(".txt").show()
+            $("#button").slideDown()
 
             setTimeout(function () {
-                $(".title").hide(1000)
+                
              
 
-                $(".txt").show()
+                
                 setTimeout(function () {
-                    $("#button").slideDown()
+                    
                 }, 2000)
 
             }, 10000);

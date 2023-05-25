@@ -43,7 +43,7 @@
             <div style="width: 40%; margin-right: 10%; padding-top: 100px;">
                 <h1 class=" heading  job-no overline right-align" id="theme-st">Submitted To</h1>
                 <p class="right-align info " id="c-teacher-name">Apura debnath</p>
-                <p class=" right-align info">Junior Instractor</p>
+                <p class=" right-align info" id="c-teacherdes-2"></p>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
                         Please wait your document is creating
                     </h1>
                     <br>
-                    
+
                     <h1 class="txt txt-lg">
                         Your document is ready for download.
                     </h1>
@@ -115,6 +115,7 @@
         document.getElementById('c-teacher-name').innerHTML = sessionStorage.getItem('teachername')
         $("#c-job-no").text(sessionStorage.getItem("job-no"))
         $("#c-semester").text(sessionStorage.getItem("semester"))
+        document.querySelector("#c-teacherdes-2").innerHTML = sessionStorage.getItem("teacherdes");
 
         var theme = sessionStorage.getItem('theme');
 
@@ -123,7 +124,7 @@
             $("#theme-jn").css("color", "green")
             $("#theme-jr").css("color", "green")
             $("#theme-jno").css("color", "green")
-            $("#c-sub-name").css("color","green")
+            $("#c-sub-name").css("color", "green")
             $("#theme-st").css("color", "green")
             $("#theme-sg").css("color", "green")
             $("#theme-sb").css("color", "green")
@@ -185,18 +186,12 @@
         }
         function show() {
 
-           
+            $(".title").hide(1000)
 
+            $(".txt").show()
 
-            setTimeout(function () {
-                $(".title").hide(1000)
-             
-                $(".txt").show()
-                setTimeout(function () {
-                    $("#button").slideDown()
-                }, 2000)
+            $("#button").slideDown()
 
-            }, 10000);
 
         }
 

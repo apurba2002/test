@@ -3,12 +3,7 @@ import $ from "jquery"
 
 class Privacy extends React.Component{
     componentDidMount(){
-        $("#privacy").mouseover(()=>{
-            $(".privacy-head").addClass("privacy-animation")
-        })
-        $("#privacy").mouseout(()=>{
-            $(".privacy-head").removeClass("privacy-animation")
-        })
+      
     }
     render(){
         return(

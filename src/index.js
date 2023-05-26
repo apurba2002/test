@@ -14,12 +14,16 @@ import Tool from './components/Tool';
 import Cover from './components/cover';
 import Landing from './components/Landing';
 import Temp from './components/Temp';
+import MidNav from './components/Midnav';
+import Baneradd from './components/Add';
 
 const App = () => {
     return (
         <>
             <Navbar />
             <Landing />
+            <MidNav />
+            <Baneradd />
             <Temp  />
             
             <Tool />

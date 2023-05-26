@@ -1,56 +1,6 @@
-.tem-head{
-    width: 80%;
-   
-  
-}
-img{
-    margin-top: 50px;
-}
-#templete{
-    padding-bottom: 100px;
+#templete h1{
     width: 80%;
     margin-left: 10%;
-    
-   
-}
-.temp-animation{
-    animation: hinge; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s; /* don't forget to set a duration! */
-}
-
-@media (max-width:768px){
-    #templete img {
-      
-        height: 100px;
-    }
-    .tem-head{
-   
-        width: 80%;
-    }
-    .temp-info{
-        width: 80%;
-        margin-left: 10%;
-    }
-}
-@media (min-width:2560px){
-    #templete img {
-      
-        height: 400px;
-    }
-    .tem-head{
-   
-        width: 80%;
-    }
-}
-@media (max-width:767px){
-    #templete img {
-        width: 80%;
-        margin-left: 10%;
-        height: 400px;
-
-    }
-    .tem-head{
-        margin-left: 10%;
-        width: 80%;
-    }
+    text-align: center;
+    margin-bottom: 50px;
 }

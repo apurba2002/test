@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery"
 class Temp extends React.Component {
     componentDidMount() {
-       
+
         $("#default").click(() => {
             var theme = "default"
             sessionStorage.setItem("theme", theme)
@@ -131,136 +131,162 @@ class Temp extends React.Component {
 
         return (
             <section id="templete">
-                <div className="row">
-                    <div className="col-lg-2 col-md-1 ">
+                <h1>Select Your Templete And Create Your Cover</h1>
+
+                <div id="row1">
+                    <div className="contain">
+                        <div className="box" id="default" >
+                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Contact Us</h3>
+
+                            <p className="boxtxt">
+                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
+                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Our Privacy</h3>
+
+                            <p className="boxtxt">
+                                We are always working hard to secure your information.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
+                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt" >Templetes </h3>
+
+                            <p className="boxtxt">
+                                Our designers know your expectation. Just choose and save your time.
+                            </p>
+                        </div>
 
                     </div>
-                    <div className="col-lg-8 col-md-8 col-12 ">
-                        <h1 className="tem-head">
-                            Take your style and create something awesome
-                        </h1>
-                    </div>
-                    <div className="col-lg-2 "></div>
+                </div>
+                <br></br>
+                <div id="row2">
+                    <div className="contain">
+                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
+                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Contact Us</h3>
 
+                            <p className="boxtxt">
+                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
+                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Our Privacy</h3>
 
-                    {/* row 1 */}
-                    <div className="col-lg-2 col-md-1 "></div>
+                            <p className="boxtxt">
+                                We are always working hard to secure your information.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
+                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt" >Templetes </h3>
 
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="default" src={"Screenshot (16).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Simple default</p>
-
-
-                    </div>
-                    <div className="col-lg-1 col-md-2 "></div>
-                    <div className="col-lg-2 col-md-2 ">
-                        <img alt="" id="orange" src={"Screenshot (17).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-warning text-center p-3 " >Simple orange</p>
-
-
-                    </div>
-                    <div className="col-lg-1 col-md-2 "></div>
-
-
-                    <div className="col-lg-2 col-md-2 ">
-                        <img alt="" id="green" src={"Screenshot (18).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-success text-center p-3 " >Simple green</p>
-
-
-                    </div>
-                    <div className="col-lg-2 col-md-1 "></div>
-
-
-                    {/* row 2 */}
-                    <div className="col-lg-2 col-md-1 "></div>
-
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="burlywood" src={"Screenshot (19).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Simple wood finish</p>
-
+                            <p className="boxtxt">
+                                Our designers know your expectation. Just choose and save your time.
+                            </p>
+                        </div>
 
                     </div>
-                    <div className="col-lg-1 col-md-2"></div>
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="lightblue" src={"Screenshot (20).png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark  bg-info text-center p-3 " >Simple sky blue</p>
+                </div>
+                <br></br>
+                <div id="row3">
+                    <div className="contain">
+                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
+                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Contact Us</h3>
 
+                            <p className="boxtxt">
+                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
+                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Our Privacy</h3>
 
-                    </div>
-                    <div className="col-lg-1 col-md-2"></div>
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="pink" src={"Screenshot (22).png"} width={"100%"} height={"250px"}></img>
-                        <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Simple light pink</p>
+                            <p className="boxtxt">
+                                We are always working hard to secure your information.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
+                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt" >Templetes </h3>
 
-
-                    </div>
-                    <div className="col-lg-2 col-md-1"></div>
-
-
-
-                    {/* row 3 */}
-                    <div className="col-lg-2 col-md-1 "></div>
-
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="default-c2" src={"c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid image default</p>
-
-
-                    </div>
-                    <div className="col-lg-1 col-md-2">
-
-                    </div>
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="pink-c2" src={"pink2.png"} width={"100%"} height={"250px"}></img>
-                        <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Mid image pink</p>
-
-
-
-                    </div>
-                    <div className="col-lg-1 col-md-2"></div>
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="green-c2" src={"green-2.png"} width={"100%"} height={"250px"}></img>
-                        <p className="temp-info text-light bg-success  text-center p-3 " style={{}}>Mid image green</p>
-
-
+                            <p className="boxtxt">
+                                Our designers know your expectation. Just choose and save your time.
+                            </p>
+                        </div>
 
                     </div>
-                    <div className="col-lg-2 col-md-1"></div>
+                </div>
+                <br></br>
+                <div id="row4">
+                    <div className="contain">
+                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
+                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Contact Us</h3>
 
+                            <p className="boxtxt">
+                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
+                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt">Our Privacy</h3>
 
+                            <p className="boxtxt">
+                                We are always working hard to secure your information.
+                            </p>
+                        </div>
+                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
+                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                            <br></br>
+                            <br>
+                            </br>
+                            <h3 className="boxtxt" >Templetes </h3>
 
-
-
-
-                    {/* row 4 */}
-                    <div className="col-lg-2 col-md-1 "></div>
-
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="orange-c2" src={"orange-c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-warning text-center p-3 " >Mid image orange</p>
-
+                            <p className="boxtxt">
+                                Our designers know your expectation. Just choose and save your time.
+                            </p>
+                        </div>
 
                     </div>
-                    <div className="col-lg-1 col-md-2">
-
-                    </div>
-                    <div className="col-lg-2 col-md-2">
-
-                        <img alt="" id="burlywood-c2" src={"b-c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Mid wood finish</p>
-
-
-                    </div>
-                    <div className="col-lg-1 col-md-2"></div>
-                    <div className="col-lg-2 col-md-2">
-                        <img alt="" id="lightblue-c2" src={"lb-c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-dark  bg-info text-center p-3 " >Mid image sky blue</p>
-
-                    </div>
-                    <div className="col-lg-2 col-md-1"></div>
-
-
-
                 </div>
 
             </section >

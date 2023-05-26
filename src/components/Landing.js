@@ -7,8 +7,8 @@
     render(){
         return(
             <section id="landing">
-                <div className="row">
-                        <div className="col-lg-6">
+                <div className="container" style={{}}>
+                        <div className="left" >
                             <h1 className="land-head">
                                 Ai is waiting for you 
                             </h1>
@@ -23,8 +23,8 @@
                             
                             
                         </div>
-                        <div className="col-lg-6">
-                            <img className="side-img" src="166-Virtual-Reality.png"></img>
+                        <div className="right">
+                            <img style={{width:"100%"}} className="side-img" src="166-Virtual-Reality.png"></img>
                         </div>
                 </div>
             </section>

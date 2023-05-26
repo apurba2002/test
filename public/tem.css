@@ -1,7 +1,6 @@
 .tem-head{
     width: 80%;
-    color: wheat;
-    filter: brightness(810%);
+   
   
 }
 img{
@@ -11,8 +10,7 @@ img{
     padding-bottom: 100px;
     width: 80%;
     margin-left: 10%;
-    border-radius: 30PX;
-    background-color: rgba(0, 0, 0, 0.534);
+    
    
 }
 .temp-animation{

@@ -137,7 +137,7 @@ class Temp extends React.Component {
                     </div>
                     <div className="col-lg-8 col-md-8 col-12 ">
                         <h1 className="tem-head">
-                            Take your style and create something awasome
+                            Take your style and create something awesome
                         </h1>
                     </div>
                     <div className="col-lg-2 "></div>
@@ -190,7 +190,7 @@ class Temp extends React.Component {
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
                         <img id="pink" src={"Screenshot (22).png"} width={"100%"} height={"250px"}></img>
-                        <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Simple pink</p>
+                        <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Simple light pink</p>
 
 
                     </div>
@@ -203,7 +203,7 @@ class Temp extends React.Component {
 
                     <div className="col-lg-2 col-md-2">
                         <img id="default-c2" src={"c2.png"} width={"100%"} height={"250px"}></img>
-                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid  default</p>
+                        <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid image default</p>
 
 
                     </div>

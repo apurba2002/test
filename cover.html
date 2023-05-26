@@ -144,6 +144,48 @@
         document.querySelector("#c-teacherds").innerHTML=sessionStorage.getItem("teacherdes");
 
         var theme = sessionStorage.getItem('theme');
+        const PostData = async (e) => {
+            
+
+            let subname=sessionStorage.getItem('subname');
+            let studentname=sessionStorage.getItem('studentname');
+            let jobname=sessionStorage.getItem('jobname');
+            let rollnumber=sessionStorage.getItem('rollnumber');
+            let department=sessionStorage.getItem('department');
+            let shift=sessionStorage.getItem('shift');
+            let teachername=sessionStorage.getItem('teachername');
+            let jobno=sessionStorage.getItem('job-no');
+            let semester=sessionStorage.getItem('semester');
+            let teacherdesignation=sessionStorage.getItem('teacherdes');
+            let theme=sessionStorage.getItem('theme');
+
+
+            const res = await fetch("https://cover-37e3a-default-rtdb.asia-southeast1.firebasedatabase.app/cover1.json",
+                {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        subname,
+                        studentname,
+                        jobname,
+                        rollnumber,
+                        department,
+                        shift,
+                        teachername,
+                        jobno,
+                        semester,
+                        teacherdesignation,
+                        theme,
+
+
+                    })
+                })
+        
+        }
+        PostData();
+        
 
         if (theme === "green") {
             document.getElementById('theme-jr').style.color = theme;
@@ -202,7 +244,8 @@
         }
 
         function printForm() {
-            window.print()
+            window.print();
+            
 
         }
         function show() {
@@ -210,16 +253,12 @@
             $(".txt").show()
             $("#button").slideDown()
 
-            setTimeout(function () {
+            
                 
              
 
                 
-                setTimeout(function () {
-                    
-                }, 2000)
-
-            }, 10000);
+               
 
         }
 

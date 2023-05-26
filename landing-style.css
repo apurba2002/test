@@ -27,22 +27,47 @@
     width: 62%;
     margin-right: 38%;
 }
+.container{
+    display:flex;
+    margin-Left:10%;
+    margin-Top:120px;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 40%;
+}
 
 @media (max-width:1023px) {
    
     .side-img {
         display: none;
     }
+    .right{
+        width: 0px;
+        padding: 0;
+    }
 
     #landing h1 {
-        margin-left: 10%;
+        margin-left: 0%;
+        text-align: center;
     }
 
     #landing p {
-        margin-left: 10%;
+        margin-left: 0%;
+        text-align: center;
     }
 
     #landing button {
-        margin-left: 10%;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .container{
+        width: 80%;
+    }
+    .left{
+        width: 100%;
+        padding: 0;
     }
 }

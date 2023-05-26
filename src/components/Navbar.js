@@ -28,7 +28,7 @@ class Navbar extends React.Component {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
-                                            <a className=" btn btn-primary " id="home"  >Home</a>
+                                            <a className=" btn btn-primary " href="#"  id="home"  >Home</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className=" btn btn-primary " href="#contact"  >Contract</a>

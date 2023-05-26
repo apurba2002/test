@@ -147,14 +147,14 @@ class Temp extends React.Component {
                     <div className="col-lg-2 col-md-1 "></div>
 
                     <div className="col-lg-2 col-md-2">
-                        <img id="default" src={"Screenshot (16).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="default" src={"Screenshot (16).png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-light  bg-primary text-center p-3 " >Simple default</p>
 
 
                     </div>
                     <div className="col-lg-1 col-md-2 "></div>
                     <div className="col-lg-2 col-md-2 ">
-                        <img id="orange" src={"Screenshot (17).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="orange" src={"Screenshot (17).png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-light  bg-warning text-center p-3 " >Simple orange</p>
 
 
@@ -163,7 +163,7 @@ class Temp extends React.Component {
 
 
                     <div className="col-lg-2 col-md-2 ">
-                        <img id="green" src={"Screenshot (18).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="green" src={"Screenshot (18).png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-light  bg-success text-center p-3 " >Simple green</p>
 
 
@@ -175,21 +175,21 @@ class Temp extends React.Component {
                     <div className="col-lg-2 col-md-1 "></div>
 
                     <div className="col-lg-2 col-md-2">
-                        <img id="burlywood" src={"Screenshot (19).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="burlywood" src={"Screenshot (19).png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Simple wood finish</p>
 
 
                     </div>
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
-                        <img id="lightblue" src={"Screenshot (20).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="lightblue" src={"Screenshot (20).png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-dark  bg-info text-center p-3 " >Simple sky blue</p>
 
 
                     </div>
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
-                        <img id="pink" src={"Screenshot (22).png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="pink" src={"Screenshot (22).png"} width={"100%"} height={"250px"}></img>
                         <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Simple light pink</p>
 
 
@@ -202,7 +202,7 @@ class Temp extends React.Component {
                     <div className="col-lg-2 col-md-1 "></div>
 
                     <div className="col-lg-2 col-md-2">
-                        <img id="default-c2" src={"c2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="default-c2" src={"c2.png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-light  bg-primary text-center p-3 " >Mid image default</p>
 
 
@@ -211,7 +211,7 @@ class Temp extends React.Component {
 
                     </div>
                     <div className="col-lg-2 col-md-2">
-                        <img id="pink-c2" src={"pink2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="pink-c2" src={"pink2.png"} width={"100%"} height={"250px"}></img>
                         <p className="temp-info text-dark  text-center p-3 " style={{ backgroundColor: "pink" }}>Mid image pink</p>
 
 
@@ -219,7 +219,7 @@ class Temp extends React.Component {
                     </div>
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
-                        <img id="green-c2" src={"green-2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="green-c2" src={"green-2.png"} width={"100%"} height={"250px"}></img>
                         <p className="temp-info text-light bg-success  text-center p-3 " style={{}}>Mid image green</p>
 
 
@@ -236,7 +236,7 @@ class Temp extends React.Component {
                     <div className="col-lg-2 col-md-1 "></div>
 
                     <div className="col-lg-2 col-md-2">
-                        <img id="orange-c2" src={"orange-c2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="orange-c2" src={"orange-c2.png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-light  bg-warning text-center p-3 " >Mid image orange</p>
 
 
@@ -246,14 +246,14 @@ class Temp extends React.Component {
                     </div>
                     <div className="col-lg-2 col-md-2">
 
-                        <img id="burlywood-c2" src={"b-c2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="burlywood-c2" src={"b-c2.png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-dark   text-center p-3 " style={{ backgroundColor: "burlywood" }} >Mid wood finish</p>
 
 
                     </div>
                     <div className="col-lg-1 col-md-2"></div>
                     <div className="col-lg-2 col-md-2">
-                        <img id="lightblue-c2" src={"lb-c2.png"} width={"100%"} height={"250px"}></img>
+                        <img alt="" id="lightblue-c2" src={"lb-c2.png"} width={"100%"} height={"250px"}></img>
                         <p className=" temp-info text-dark  bg-info text-center p-3 " >Mid image sky blue</p>
 
                     </div>

@@ -27,7 +27,7 @@ const App = () => {
             <Temp  />
             
             <Tool />
-            <hr></hr>
+            
             <About />
             <hr></hr>
            

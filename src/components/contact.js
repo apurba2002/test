@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery"
 class Contact extends React.Component {
-   
+
     render() {
         const PostData = async (e) => {
             e.preventDefault()
@@ -33,58 +33,37 @@ class Contact extends React.Component {
         return (
             <section id="contact">
                 <form onSubmit={PostData}>
-
-                    <div className="row">
-                        <div className="col-lg-2"></div>
-
-                        <div className=" col-lg-8  ">
-                            <p className="contact-head">
-                                Contact Us
-                            </p>
-                            <p className="contact-details">
-                                <a href="mailto:akash01714595969@gmail.com">Gmail: akash01714595969@gmail.com</a>
-                                <br />
-                                <a href="tel:+8801306091544">Mobile: 01306091544</a>
-                                <br />
-                                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-                                <br />
-                                <a href="http://instagram.com" className="contact-instagram" target="_blank"
-                                    rel="noopener noreferrer">Istagram</a>
-                            </p>
-                            <p className="feed-head">
-                                Contact us directly
-                            </p>
-                            <input type="text" id="name" required className="feed-input" placeholder="Name" />
+                    <div className="container">
+                        <h1 className="contact-head">
+                            Contact Us
+                        </h1>
+                        <p className="contact-details">
+                            <a href="mailto:akash01714595969@gmail.com">Gmail: akash01714595969@gmail.com</a>
                             <br />
-
-
-                            <input type="email" id="email" required className="feed-input" placeholder="Email" />
+                            <a href="tel:+8801306091544">Mobile: 01306091544</a>
                             <br />
-
-
-                            <p className="feed-txt">Description</p>
-
-                            <textarea required id="des" className="feed-input feed-input-lg" />
+                            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
                             <br />
-
-                            <input type="submit" value="Send" className="feed-btn" />
-
-
-
-
-
-                        </div>
-
-                        <div className="col-lg-2">
+                            <a href="http://instagram.com" className="contact-instagram" target="_blank"
+                                rel="noopener noreferrer">Istagram</a>
+                        </p>
+                        <h1 className="feed-head">
+                            Contact us directly
+                        </h1>
+                        <input type="text" id="name" required className="feed-input" placeholder="Name" />
+                        <br />
 
 
+                        <input type="email" id="email" required className="feed-input" placeholder="Email" />
+                        <br />
 
 
+                        
+                        <label for="des" className="feed-txt">Descrpition</label>
+                        <textarea name="des" required id="des" className="feed-input feed-input-lg" />
+                        <br />
 
-
-
-
-                        </div>
+                        <input type="submit" value="Send" className="feed-btn" />
 
                     </div>
                 </form>

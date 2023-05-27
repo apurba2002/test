@@ -5,20 +5,18 @@ import anime from "animejs";
 
 class About extends React.Component{
     
-    componentDidMount(){
-      
-    }
+    
 
     render(){
        
         return (
             <section id="about">
                 <div className="row">
-                    <div className="col-lg-2"></div>
-                    <div className="col-lg-8 col-12">
-                        <p className="about-head">
+                    
+                    <div className="container-about">
+                        <h1 className="about-head">
                             Why you will use it?
-                        </p>
+                        </h1>
                         <p className="about-txt">
                             In today's digital age, creating an attractive and professional-looking cover page has become a
                             must for various documents such as reports, presentations, and even social media posts. Whether
@@ -54,7 +52,7 @@ class About extends React.Component{
                         </p>
     
                     </div>
-                    <div className="col-lg-2"></div>
+                   
     
                 </div>
             </section>

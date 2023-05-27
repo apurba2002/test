@@ -1,19 +1,16 @@
 import React from "react";
 import $ from "jquery"
 
-class Privacy extends React.Component{
-    componentDidMount(){
-      
-    }
-    render(){
-        return(
+class Privacy extends React.Component {
+
+    render() {
+        return (
             <section id="privacy">
-            <div className="row">
-                <div className="col-lg-2"></div>
-                <div className="col-lg-8 col-12 ">
-                    <p className="privacy-head">
+                <div className="container-privacy">
+
+                    <h1 className="privacy-head">
                         Privacy policy
-                    </p>
+                    </h1>
                     <p className="privacy-txt">
                         Thank you for entrusting your privacy to us. At cover creator, we are committed to protecting your
                         personal information and ensuring that you have a safe and enjoyable experience on our website. This
@@ -64,7 +61,7 @@ class Privacy extends React.Component{
                         communication or contacting us directly. However, please note that even if you opt-out of marketing
                         communications, we may still need to contact you for administrative purposes related to the services
                         we provide.
-    
+
                     </p>
                     <p className="privacy-txt">
                         Changes to this privacy policy
@@ -80,10 +77,8 @@ class Privacy extends React.Component{
                         protected.
                     </p>
                 </div>
-                <div className="col-lg-2"></div>
-            </div>
-        </section>
-    
+            </section>
+
         );
     }
 }

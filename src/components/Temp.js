@@ -136,37 +136,31 @@ class Temp extends React.Component {
                 <div id="row1">
                     <div className="contain">
                         <div className="box" id="default" >
-                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                            <img alt="image" src="Screenshot (16).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Contact Us</h3>
+                            <h3 className="boxtxt">Simple Default</h3>
 
-                            <p className="boxtxt">
-                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
-                            </p>
+                            
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
-                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                        <div className="box" id="orange">
+                            <img alt="image" src="Screenshot (17).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Our Privacy</h3>
+                            <h3 className="boxtxt">Simple Orange</h3>
 
-                            <p className="boxtxt">
-                                We are always working hard to secure your information.
-                            </p>
+                           
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
-                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                        <div className="box" id="green" style={{ marginRight: "0" }}>
+                            <img alt="image" src="Screenshot (18).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt" >Templetes </h3>
+                            <h3 className="boxtxt" >Simple Green </h3>
 
-                            <p className="boxtxt">
-                                Our designers know your expectation. Just choose and save your time.
-                            </p>
+                            
                         </div>
 
                     </div>
@@ -174,38 +168,32 @@ class Temp extends React.Component {
                 <br></br>
                 <div id="row2">
                     <div className="contain">
-                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
-                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                        <div className="box" id="burlywood">
+                            <img alt="image" src="Screenshot (19).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Contact Us</h3>
+                            <h3 className="boxtxt">Simple Burlywood</h3>
 
-                            <p className="boxtxt">
-                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
-                            </p>
+                           
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
-                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                        <div className="box" id="lightblue">
+                            <img alt="image" src="Screenshot (20).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Our Privacy</h3>
+                            <h3 className="boxtxt">Simple LightBlue</h3>
 
-                            <p className="boxtxt">
-                                We are always working hard to secure your information.
-                            </p>
+                           
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
-                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                        <div className="box" id="pink" style={{ marginRight: "0" }}>
+                            <img alt="image" src="Screenshot (22).png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt" >Templetes </h3>
+                            <h3 className="boxtxt" >Simple Pink </h3>
 
-                            <p className="boxtxt">
-                                Our designers know your expectation. Just choose and save your time.
-                            </p>
+                            
                         </div>
 
                     </div>
@@ -213,38 +201,31 @@ class Temp extends React.Component {
                 <br></br>
                 <div id="row3">
                     <div className="contain">
-                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
-                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                        <div className="box" id="default-c2">
+                            <img alt="image" src="c2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Contact Us</h3>
+                            <h3 className="boxtxt">Mid Image Default</h3>
 
-                            <p className="boxtxt">
-                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
-                            </p>
+                            
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
-                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                        <div className="box" id="pink-c2">
+                            <img alt="image" src="pink2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Our Privacy</h3>
+                            <h3 className="boxtxt"> Mid Image Pink</h3>
 
-                            <p className="boxtxt">
-                                We are always working hard to secure your information.
-                            </p>
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
-                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                        <div className="box" id="green-c2" style={{ marginRight: "0" }}>
+                            <img alt="image" src="green-2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt" >Templetes </h3>
+                            <h3 className="boxtxt" >Mid Image Green </h3>
 
-                            <p className="boxtxt">
-                                Our designers know your expectation. Just choose and save your time.
-                            </p>
+                            
                         </div>
 
                     </div>
@@ -252,38 +233,31 @@ class Temp extends React.Component {
                 <br></br>
                 <div id="row4">
                     <div className="contain">
-                        <div className="box" onClick={() => { window.location.href = "#contact" }}>
-                            <img alt="image" src="contactimg.jpg" className="boximg"></img>
+                        <div className="box" id="orange-c2" >
+                            <img alt="image" src="orange-c2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Contact Us</h3>
+                            <h3 className="boxtxt">Mid Image Orange</h3>
 
-                            <p className="boxtxt">
-                                Our team is available 24 hours for you . So don't hesitate to Contact us any time.
-                            </p>
+                            
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#privacy" }}>
-                            <img alt="image" src="privacyimg.jpg" className="boximg"></img>
+                        <div className="box" id="burlywood-c2">
+                            <img alt="image" src="b-c2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt">Our Privacy</h3>
+                            <h3 className="boxtxt">Mid Image Brown</h3>
 
-                            <p className="boxtxt">
-                                We are always working hard to secure your information.
-                            </p>
                         </div>
-                        <div className="box" onClick={() => { window.location.href = "#templete" }} style={{ marginRight: "0" }}>
-                            <img alt="image" src="temimg.jpg" className="boximg"></img>
+                        <div className="box" id="lightblue-c2" style={{ marginRight: "0" }}>
+                            <img alt="image" src="lb-c2.png" className="boximg"></img>
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt" >Templetes </h3>
+                            <h3 className="boxtxt" >Mid Image LightBlue </h3>
 
-                            <p className="boxtxt">
-                                Our designers know your expectation. Just choose and save your time.
-                            </p>
+                            
                         </div>
 
                     </div>

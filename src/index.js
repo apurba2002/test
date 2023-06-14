@@ -16,25 +16,70 @@ import Landing from './components/Landing';
 import Temp from './components/Temp';
 import MidNav from './components/Midnav';
 import Baneradd from './components/Add';
+import Team from './components/Team';
 
 const App = () => {
     return (
         <>
             <Navbar />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Landing />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <MidNav />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Baneradd />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Temp  />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             
             <Tool />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             
             <About />
-            <hr></hr>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
            
-            <Contact />
-            <hr></hr>
+            <Team />
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <Privacy />
-         
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Contact />
+           
             <Footer />
            
            

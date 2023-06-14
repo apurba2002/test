@@ -8,6 +8,10 @@
    
 
 }
+.aboutanimation{
+    animation:fadeInUp ;
+    animation-duration: 2s;
+}
 .container-about{
     width: 80%;
     margin-left: 10%;

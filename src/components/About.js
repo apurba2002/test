@@ -8,9 +8,15 @@ class About extends React.Component{
     
 
     render(){
+        const headinganimation = () => {
+            document.querySelector(".container-about").classList.add('aboutanimation')
+        }
+        const headinganimationremove = () => {
+            document.querySelector(".container-about").classList.remove('aboutanimation')
+        }
        
         return (
-            <section id="about">
+            <section id="about" onMouseOver={headinganimation} onMouseOut={headinganimationremove} >
                 <div className="row">
                     
                     <div className="container-about">

@@ -2,10 +2,17 @@
 import React from "react";
 class MidNav extends React.Component {
     render() {
+        const headinganimation = () => {
+            document.querySelector(".contain").classList.add('animation')
+        }
+        const headinganimationremove = () => {
+            document.querySelector(".contain").classList.remove('animation')
+        }
+    
 
         return (
             <>
-                <section id="midnav">
+                <section id="midnav" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
                     <div className="contain">
                         <div className="box" onClick={() => { window.location.href = "#contact" }}>
                             <img alt="image" src="contactimg.jpg" className="boximg"></img>

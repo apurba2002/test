@@ -47,6 +47,9 @@ class Navbar extends React.Component {
                                             <a className=" btn btn-primary" href="#privacy" >Privacy policy</a>
                                         </li>
                                         <li className="nav-item">
+                                            <a className=" btn btn-primary" href="#team" >Our Team</a>
+                                        </li>
+                                        <li className="nav-item">
                                             <a className="btn btn-primary" href="https://apurba2002.github.io/resume/" target="blank">Try our new Resume.com</a>
                                         </li>
 

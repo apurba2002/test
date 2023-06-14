@@ -28,6 +28,10 @@
     width: 80%;
     margin-left: 10%;
 }
+.animation{
+    animation: lightSpeedInRight;
+    animation-duration: 2s;
+}
 @media screen and (max-width:768px) {
     .box{
         width: 80% ;

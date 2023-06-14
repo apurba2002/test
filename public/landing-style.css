@@ -17,6 +17,10 @@
      margin-left: 35%;
 
 }
+.landheadanimation{
+    animation:backInDown ;
+    animation-duration: 1s;
+}
 
 
 

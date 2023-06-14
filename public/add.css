@@ -1,8 +1,15 @@
 #baneradd {
+   
+}
+#total{
     margin-left: 10%;
     margin-top: 80px;
     display: flex;
     width: 80%;
+}
+.animationleft{
+    animation:rubberBand ;
+    animation-duration: 2s;
 }
 
 #baneradd div {

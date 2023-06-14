@@ -62,7 +62,7 @@ class Footer extends React.Component {
         */}
         <div className="row">
             <div className="col-lg-12 col-12">
-                <div style={{backgroundColor: "cornflowerblue", height: "100px"}}>
+                <div style={{backgroundColor: "black", height: "100px"}}>
                     <p style={{textAlign: "center", color: "white"}}>
                         All credit reserved by ©apurba debnath
                     </p>

@@ -128,9 +128,21 @@ class Temp extends React.Component {
 
     }
     render() {
+        const headinganimation = () => {
+            document.querySelector("#row1").classList.add('temanimation')
+            document.querySelector("#row2").classList.add('temanimation')
+            document.querySelector("#row3").classList.add('temanimation')
+            document.querySelector("#row4").classList.add('temanimation')
+        }
+        const headinganimationremove = () => {
+            document.querySelector("#row1").classList.remove('temanimation')
+            document.querySelector("#row2").classList.remove('temanimation')
+            document.querySelector("#row3").classList.remove('temanimation')
+            document.querySelector("#row4").classList.remove('temanimation')
+        }
 
         return (
-            <section id="templete">
+            <section id="templete" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
                 <h1>Select Your Templete And Create Your Cover</h1>
 
                 <div id="row1">
@@ -255,7 +267,7 @@ class Temp extends React.Component {
                             <br></br>
                             <br>
                             </br>
-                            <h3 className="boxtxt" >Mid Image LightBlue </h3>
+                            <h3 className="boxtxt" >Mid  LightBlue </h3>
 
                             
                         </div>

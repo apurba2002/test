@@ -9,6 +9,7 @@ class Baner extends React.Component {
     }
 
     render() {
+   
         return (
             <>
             <section id="baner" style={{ display: "none" }} >

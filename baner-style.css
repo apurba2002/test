@@ -1,5 +1,8 @@
 
-
+.animation{
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
+}
 @media only screen and (max-width :1023px) {
     #baner {
         width: 100%;
@@ -7,6 +10,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 562px;
+    }
+    #total{
+        
     }
     .baner-txt {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -15,7 +15,7 @@ class Landing extends React.Component {
     
         return (
             <section id="landing" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
-                <div className="container" style={{}}>
+                <div style={{}}>
 
                     <h1 className="land-head" >
                         Cover Creator: The ultimate tool for designing stunning book covers in minutes.

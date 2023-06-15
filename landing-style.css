@@ -1,5 +1,8 @@
 #landing {
    margin-bottom: 80px;
+   width: 80%;
+   margin-left: 10%;
+   margin-Top:120px;
 }
 
 #landing h1 {
@@ -27,9 +30,8 @@
 
 .container{
     
-    margin-Left:10%;
-    margin-Top:120px;
-    width: 80%;
+  
+
 }
 
 
@@ -50,9 +52,7 @@
         margin-left: 25%;
         width: 50%;
     }
-    .container{
-        width: 80%;
-    }
+    
     .left{
         width: 100%;
         padding: 0;

@@ -9,12 +9,15 @@
     height: 315px;
     filter: brightness(90%);
 }
-.temanimation{
-    animation:backInDown ;
-    animation-duration: 2s;
-}
+
 @media screen and (max-width: 768px) {
     #templete .box {
         height: 420px;
+    }
+}
+@media screen and (min-width: 768px){
+    .temanimation{
+        animation:backInDown ;
+        animation-duration: 2s;
     }
 }

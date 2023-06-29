@@ -142,7 +142,7 @@ class Temp extends React.Component {
         }
 
         return (
-            <section id="templete" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
+            <section id="templete" >
                 <h1>Select Your Templete And Create Your Cover</h1>
 
                 <div id="row1">

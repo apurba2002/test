@@ -16,7 +16,7 @@ class About extends React.Component{
         }
        
         return (
-            <section id="about" onMouseOver={headinganimation} onMouseOut={headinganimationremove} >
+            <section id="about" >
                 <div className="row">
                     
                     <div className="container-about">

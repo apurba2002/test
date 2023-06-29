@@ -14,7 +14,7 @@ class Landing extends React.Component {
         }
     
         return (
-            <section id="landing" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
+            <section id="landing" >
                 <div style={{}}>
 
                     <h1 className="land-head" >

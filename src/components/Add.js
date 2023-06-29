@@ -10,7 +10,7 @@ class Baneradd extends React.Component {
             document.querySelector("#total").classList.remove('animationleft')
         }
         return (
-            <section id="baneradd" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
+            <section id="baneradd" >
                 <section id="total">
                     <img alt="image" src="baneradd.jpg"></img>
                     <div>

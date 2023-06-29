@@ -9,7 +9,7 @@ const Team = () => {
     }
 
     return (
-        <section id="team" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
+        <section id="team" >
             <h1 className='heading' >
                 Our team
             </h1>

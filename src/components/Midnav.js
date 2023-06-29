@@ -12,7 +12,7 @@ class MidNav extends React.Component {
 
         return (
             <>
-                <section id="midnav" onMouseOver={headinganimation} onMouseOut={headinganimationremove}>
+                <section id="midnav">
                     <div className="contain">
                         <div className="box" onClick={() => { window.location.href = "#contact" }}>
                             <img alt="image" src="contactimg.jpg" className="boximg"></img>
